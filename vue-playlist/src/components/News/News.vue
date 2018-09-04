@@ -12,16 +12,14 @@
                     <div  v-if="index >= (curPage-1)*pageSize && index < curPage*pageSize">
                         <div class="title">
                             
-                                <router-link   v-rainbow :to="{path:'/NewsArticle/', query:{title:New.title} }">
-                               <h4> {{New.title }}</h4>
-                                </router-link>
+                                <router-link   v-rainbow :to="{path:'/NewsArticle/', query:{title:New.title} }">{{ New.title }}</router-link>
                             
                         </div>
                         <div class="content">
-                         <p>{{New.content[0]| snippet }}</p>
+                         <p >{{New.content[0]| snippet }}</p>
                          
                          </div>
-                    <div class="new_img"> 
+                    <div class="new_img" > 
                             <img :src="New.imgurl" />  
                         </div>
                         <div class="time">
@@ -127,7 +125,8 @@ export default {
 <style scoped>
 .new_img{
     position: relative;
-  
+    width: 150px;
+    height: 120px;
 }
 
 .title{
