@@ -1,4 +1,5 @@
 <template>
+
     <div class="bg">
         <h3 class="threed">奖牌 Top10</h3>
         <table class="table">
@@ -14,16 +15,18 @@
                     <th>
                         <img src="../../assets/tongpai.png" alt="">
                     </th>
-                    <th>总数</th>
+                    <th class="zongshu">总数</th>
                 </tr>
             </thead>
-            <tbody v-for="item in huojiang" :key="item.index">
+            <tbody v-for="(item,index) in huojiang" v-if="index<=7" :key="item.index">
                 <tr>
-                    <td>{{item.name}}</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>6</td>
+                    <td class="press">{{item.name}}
+                        <!-- <img :src="item.logo"> -->
+                    </td>
+                    <td class="glob">{{item.glob}}</td>
+                    <td class="silver">{{item.silver}}</td>
+                    <td class="bronze">{{item.bronze}}</td>
+                    <td class="red">{{item.total}}</td>
                 </tr>
                 
                 
@@ -34,6 +37,7 @@
             </tbody>
         </table>
     </div>
+
 </template>
 
 <script>
@@ -56,9 +60,6 @@ export default {
 
 
 <style>
-.h4{
-    padding: 20px;
-}
 .bg{
     /* background-color: #FEE140;
 background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%); */
@@ -68,10 +69,12 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
 background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
 /* background-color: #FFFFFF;
 background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%); */
-background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-
-
+/* background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+/* background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%); */
+/* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 .threed{
 color: #ffffff;
@@ -92,6 +95,28 @@ text-shadow: 0px 1px 0px rgb(243, 158, 155),
 0px 6px 0px rgb(61, 189, 72), 
 0px 7px 0px rgb(31, 180, 143), 
 0px 8px 7px #5e0dbb
+}
+.glob{
+    color: gold;
+}
+.silver{
+    color:silver;
+}
+.bronze{
+    color:#da6b4c;
+}
+.red{
+    color: red;
+}
+.press{
+    color: black;
+}
+.press img{
+    height: 10%;
+    width: 10%;
+}
+.zongshu{
+    font-size: 15px;
 }
 </style>
 
