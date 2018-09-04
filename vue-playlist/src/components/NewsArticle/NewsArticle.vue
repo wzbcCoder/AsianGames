@@ -13,7 +13,11 @@
         <div class="time">
             {{New.pubtime}}
         </div>
+
+        
     </div>
+ 
+
 </template>
 <script>
 import Carousel from '../NewsArticle/Carousel'
@@ -57,12 +61,16 @@ components: {
 
 <style scoped>
 .title {
+  width: 60%;
+  height: 20%;
   text-align: center;
 }
 li{
 list-style-type: none
 }
-
+a{
+  pointer-events: initial
+}
 .time{
   position: relative;
   left: 80%;

@@ -33,23 +33,23 @@
         
         
         <nav>
-            <ul>
-                <li v-if="curPage === 1" class="disabled"><a href="#">上一页</a></li>
-                <li v-else @click="prePage()"><a href="#">上一页</a></li>
+            <ul class="pagination">
+                <li v-if="curPage === 1" class="disabled page-item"><a href="#" class="page-link">上一页</a></li>
+                <li v-else @click="prePage()" class="page-item"><a href="#" class="page-link">上一页</a></li>
                 <div v-for="(page,index) in pageCount" :key="index" >
-                    <li  v-if="page===curPage" class="active" @click="numPage(page, $event)">
-                        <a href="#">{{page}}</a>
+                    <li  v-if="page===curPage" class="active page-item" @click="numPage(page, $event)">
+                        <a href="#" class="page-link">{{page}}</a>
                     </li>
-                    <li  v-else @click="numPage(page, $event)">
-                        <a href="#">{{page}}</a>
+                    <li  v-else @click="numPage(page, $event)"  class=" page-item">
+                        <a href="#" class="page-link">{{page}}</a>
                     </li>
                 </div>
-                <li v-if="curPage === pageCount" class="disabled"><a href="#">下一页</a></li>
-                <li v-else @click="nextPage()"><a href="#">下一页</a></li>
+                <li v-if="curPage === pageCount" class="page-item disabled"><a href="#" class="page-link">下一页</a></li>
+                <li v-else @click="nextPage()" class="page-item"><a href="#"  class="page-link">下一页</a></li>
             </ul>
         </nav>
 
-  
+    
         <!-- <ul>
             <li v-for="New in filteredNews " :key="New.index">
                 <p>标题</p>

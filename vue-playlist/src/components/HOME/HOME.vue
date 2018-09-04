@@ -41,7 +41,7 @@ export default {
 .barbar{
   background: url(../../assets/tiao.png);
   margin: 10px auto;
-  height: 8px;
+  height: 4px;
   padding: 2px;
 }
 .bar2{
