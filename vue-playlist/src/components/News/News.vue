@@ -8,15 +8,30 @@
         </md-field>
     </div>    
 
-            <div v-for="(New,index) in filteredNews" :key="index" >
-                    <tr  v-if="index >= (curPage-1)*pageSize && index < curPage*pageSize">
-                        <td><p><router-link   v-rainbow :to="{path:'/NewsArticle/', query:{title:New.title} }">{{New.title }}</router-link></p></td>
-                        <td> 正文<p>{{New.content[0]| snippet }}</p></td>
-                        <td> <img :src="New.imgurl" />  </td>
-                        <td><p>出版时间</p>{{New.pubtime}}</td>
-                    </tr>
+            <div v-for="(New,index) in filteredNews" :key="index" class="all">
+                    <div  v-if="index >= (curPage-1)*pageSize && index < curPage*pageSize">
+                        <div class="title">
+                            
+                                <router-link   v-rainbow :to="{path:'/NewsArticle/', query:{title:New.title} }">
+                               <h4> {{New.title }}</h4>
+                                </router-link>
+                            
+                        </div>
+                        <div class="content">
+                         <p>{{New.content[0]| snippet }}</p>
+                         
+                         </div>
+                    <div class="new_img"> 
+                            <img :src="New.imgurl" />  
+                        </div>
+                        <div class="time">
+                            <p>{{New.pubtime}}</p>
+                            
+                        </div>
+                    </div>
             </div>
-
+        
+        
         <nav>
             <ul>
                 <li v-if="curPage === 1" class="disabled"><a href="#">上一页</a></li>
@@ -110,6 +125,43 @@ export default {
 </script>
 
 <style scoped>
+.new_img{
+    position: relative;
+  
+}
 
+.title{
+    position: relative;
+    left: 22%;
+    top: 90px;
+}
 
+.content{
+    position: relative;
+    left: 22%;
+    top: 100px
+}
+
+.all{
+    width:75%;
+}
+.time{
+    position: relative;
+    bottom: 0px;
+    left: 22%;
+}
+
+@media (max-width:  1000px) {
+  .new_img{
+      position: relative;
+      top: 100px;
+      left: 22%;
+  }
+  .time{
+    position: relative;
+    bottom: 0px;
+    left:250px;
+}
+
+}
 </style>

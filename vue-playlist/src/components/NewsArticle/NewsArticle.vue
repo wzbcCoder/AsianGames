@@ -10,7 +10,7 @@
             </li>
         </ul>
         
-        <div>
+        <div class="time">
             {{New.pubtime}}
         </div>
     </div>
@@ -58,5 +58,38 @@ components: {
 <style scoped>
 .title {
   text-align: center;
+}
+li{
+list-style-type: none
+}
+
+.time{
+  position: relative;
+  left: 80%;
+}
+@media (max-width:  1000px) {
+  .new_img{
+      position: relative;
+      top: 100px;
+      left: 22%;
+  }
+  .time{
+    position: relative;
+    bottom: 0px;
+    right:250px;
+}
+}
+
+@media (max-width:  500px) {
+  .new_img{
+      position: relative;
+      top: 100px;
+      left: 22%;
+  }
+  .time{
+    position: relative;
+    bottom: 0px;
+    right:300px;
+}
 }
 </style>
