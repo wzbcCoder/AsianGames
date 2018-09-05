@@ -9,7 +9,7 @@
         :offset="100"
         @reach="addItem"
         @update="done"
-        @pack="done"
+        @pack="done"   
     >
         <template slot-scope="scope">
           <div class="card">
