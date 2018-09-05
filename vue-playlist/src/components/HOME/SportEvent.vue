@@ -1,67 +1,9 @@
 <template>
     <ul class="intro-cont">
 
-        <!-- <li>
-            <a href="#" target="_blank">
-                <img src="http://img1.gtimg.com/sports/pics/hv1/166/102/2287/148738351.png">
-            </a>1
-        </li>
-        <li>
-            <a href="#" target="_blank">
-                <img src="http://img1.gtimg.com/sports/pics/hv1/165/102/2287/148738350.png">
-
-            </a>2
-        </li>
-        <li>
-            <a href="#" target="_blank">
-                <img src="http://img1.gtimg.com/olympic/pics/hv1/63/82/2289/148863198.png">
-
-            </a>3
-        </li>
-        <li>
-            <a href="#" target="_blank">
-                <img src="http://img1.gtimg.com/sports/pics/hv1/154/102/2287/148738339.png">
-
-            </a>4
-        </li>
-        <li>
-            <a href="#" target="_blank">
-            <img src="http://img1.gtimg.com/sports/pics/hv1/128/102/2287/148738313.png">
-
-            </a>5
-        </li>
-        <li>
-            <a href="#" target="_blank">
-                <img src="http://img1.gtimg.com/sports/pics/hv1/157/102/2287/148738342.png">
-
-            </a>6
-        </li>
-        <li>
-            <a href="#" target="_blank">
-                <img src="http://img1.gtimg.com/sports/pics/hv1/125/102/2287/148738310.png">
-
-            </a>7
-        </li>
-        <li>
-            <a href="#" target="_blank">
-                <img src="http://img1.gtimg.com/sports/pics/hv1/129/102/2287/148738314.png">
-
-            </a>8
-        </li>
-        <li>
-            <a href="#" target="_blank">
-                <img src="http://img1.gtimg.com/sports/pics/hv1/133/102/2287/148738318.png">
-
-            </a>
-        </li>
-        <li>
-            <a href="#" target="_blank">
-                <img src="http://img1.gtimg.com/sports/pics/hv1/121/102/2287/148738306.png">
-
-            </a>
-        </li> -->
-        <li v-for="(img,index) in imgs" @mouseenter="enter(index)" @mouseleave="leave()">
-            <a href="#" target="_blank" v-bind:class="index" >
+        
+        <li v-for="(img,index) in imgs" @mouseenter="enter($event)" @mouseleave="leave($event)">
+            <a href="#" target="_blank" >
                 <img v-bind:src="img">
 
             </a>
@@ -90,14 +32,14 @@ export default {
         }
     },
      methods:{
-      enter(index){
-          console.log(index)
-        this.seen = false;
+      enter($event){
+          $event.currentTarget.className="com_marginBtm10"
+          
+        // this.seen = false;
         
       },
-      leave(){
-        this.seen = false;
-        this.current = null;
+      leave($event){
+        $event.currentTarget.className=""
       }
     }
 
@@ -113,5 +55,8 @@ ul {
 li {
     flex: 1 100px;
     list-style-type: none;
+}
+.com_marginBtm10 {
+    transform:rotate(10deg);
 }
 </style>

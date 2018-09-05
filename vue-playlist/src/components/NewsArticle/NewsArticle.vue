@@ -40,7 +40,7 @@ export default {
                 this.New.imgs.forEach(element => {
                     array.push(element);
                 });
-                console.log(array);
+                // console.log(array);
                 this.array = array;
                 if (this.array[0]) {
                     this.isShow = true;
@@ -73,7 +73,7 @@ a {
     left: 80%;
 }
 @media (max-width: 1000px) {
-    .new_img {
+    .new_img {  
         position: relative;
         top: 100px;
         left: 22%;
