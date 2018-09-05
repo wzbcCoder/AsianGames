@@ -83,8 +83,8 @@ export default {
         }
         
         .carousel {
-            width: 1000px;
-            height: 600px;
+            width: 80%;
+            height: 60%;
             margin: 0 auto;
             overflow: hidden;
             position: relative;
@@ -96,7 +96,8 @@ export default {
         }
         
         li {
-            position: absolute
+            position: absolute;
+            
         }
         
         img {
@@ -143,5 +144,8 @@ export default {
         .image-leave {
             transform: translateX(0)
         }
+        li {
+            
+            }
 </style>
 
