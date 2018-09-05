@@ -3,21 +3,19 @@ import IntroductionToAthletes from './components/IntroductionToAthletes/Introduc
 import MedalRankings from './components/MedalRankings/MedalRankings.vue'
 import NewsArticle from './components/NewsArticle/NewsArticle.vue'
 import News from './components/News/News.vue'
+import Hero from './components/HOME/HERO/Hero.vue'
 
-//二级路由
-import StepperLinear from './components/IntroductionToAthletes/StepperLinear.vue'
-import StepperLinear1 from './components/IntroductionToAthletes/StepperLinear1.vue'
+import Normal from './components/IntroductionToAthletes/Normal'
 
 export const routes = [
 
     {path:'/',name:"HOME",component:Home},
-    {path:'/IntroductionToAthletes',name:"IntroductionToAthletes",component:IntroductionToAthletes,childern:[
-      {path:'/IntroductionToAthletes/StepperLinear',name:'StepperLinear',component:StepperLinear},
-      {path:'/IntroductionToAthletes/StepperLinear1',name:'StepperLinear1',component:StepperLinear1}
+    {path:'/IntroductionToAthletes',name:"IntroductionToAthletes",redirect:'/IntroductionToAthletes/Normal',component:IntroductionToAthletes,children:[
+      {path:'/IntroductionToAthletes/Normal',name:"Normal",component:Normal}
     ]},
     {path:'/MedalRankings',name:"MedalRankings",component:MedalRankings},
     {path:'/News',name:"News",component:News},
-    {path:'/NewsArticle',name:"NewsArticle",component:NewsArticle}
-
+    {path:'/NewsArticle',name:"NewsArticle",component:NewsArticle},
+    {path:'*',redirect:'/'}
 
   ]

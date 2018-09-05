@@ -1,7 +1,17 @@
 <template>
 
     <div class="bg">
-        <h3 class="threed">奖牌 Top10</h3>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <h3 class="threed">奖牌 Top7</h3>
+            </div>
+            <div class="col-md-6 col-sm-6 ">
+                <div style="position:absolute;right:20px;bottom:0px;">
+                    <router-link :to="{name:'MedalRankings'}" >查看更多>></router-link>
+                </div>
+            </div>
+        </div>
+        
         <table class="table">
             <thead class="thead-default">
                 <tr>
@@ -18,7 +28,7 @@
                     <th class="zongshu">总数</th>
                 </tr>
             </thead>
-            <tbody v-for="(item,index) in huojiang" v-if="index<=7" :key="item.index">
+            <tbody v-for="(item,index) in huojiang" v-if="index<=6" :key="item.index">
                 <tr>
                     <td class="press">{{item.name}}
                         <!-- <img :src="item.logo"> -->
@@ -118,6 +128,9 @@ text-shadow: 0px 1px 0px rgb(243, 158, 155),
 .zongshu{
     font-size: 15px;
 }
+
+
+
 </style>
 
 

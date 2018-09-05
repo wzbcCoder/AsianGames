@@ -2,9 +2,15 @@
 <footer>
   <div class="bj">
     <div class="container-fluid text-center">
-      <h3 style="color:white;">开发者</h3>
+<div class="row">
+  <div class="col opacity">
+    <img src="../assets/china.jpg" alt="">
+  </div>
+  <div class="col">
+<h3 style="color:white;">开发者</h3>
       <div class="row">
-        <div class="col"></div>
+        <div class="col">
+        </div>
         <div class="col">
             Judy;Kuohow;Rion
         </div>
@@ -23,7 +29,17 @@
         </div>
         <div class="col-md-1"></div>
       </div>
-      <h4>版权所有</h4>
+      <p>Copyright ©2018  极速开发小组 . All rights reserved .</p>
+  </div>
+  <div class="col"></div>
+</div>
+
+
+      
+
+
+
+
     </div>
   </div>
 </footer>
@@ -58,5 +74,8 @@ export default {
 }
 .row{
   margin-top: 0px;
+}
+.opacity img{
+  opacity: 0.5;
 }
 </style>
