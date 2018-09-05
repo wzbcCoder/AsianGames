@@ -40,7 +40,7 @@
 </nav>
 </template>
 
-<style>
+<style scoped>
 .navbar-brand{
     font-family: "Times New Roman", Times, serif;
 }

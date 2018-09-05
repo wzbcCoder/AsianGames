@@ -7,7 +7,7 @@
 
         </transition-group>
         <div class="bullet">
-            <span v-for='(item,index) in imgsall.length' :class="{'active':index===mark}" @click='change(index)'></span>
+            <span v-for='(item,index) in imgsall.length' :class="{'active':index===mark}" @click='change(index)' :key="index"></span>
         </div>
 
 

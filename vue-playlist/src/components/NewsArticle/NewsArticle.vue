@@ -3,9 +3,9 @@
         <div class="title">
             <h2>{{New.title}}</h2>
         </div>
-        <carousel v-bind:imgsall="array"></carousel>
+        <carousel v-show="isShow" v-bind:imgsall="array"></carousel>
         <ul>
-            <li v-for="gra in New.content">
+            <li v-for="gra in New.content"  :key="gra.index">
                 <p>	&nbsp;	&nbsp;	&nbsp;	&nbsp;{{ gra }}</p>
             </li>
         </ul>
@@ -21,6 +21,7 @@ export default {
   name: "NewsArticle",
   data() {
     return {
+      isShow:false,
       New: "",
       array :[
               
@@ -43,6 +44,9 @@ components: {
         });
         console.log(array)
         this.array = array
+        if(this.array[0]){
+        this.isShow=true;
+    }
         
       });
     }
@@ -50,6 +54,7 @@ components: {
   created() {
     
     this.fetchMedal(this.$route.query.title);
+    
 
   }
 };

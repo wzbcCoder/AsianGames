@@ -37,11 +37,11 @@ export default {
     }
 }
 </script>
-<style>
+<style scope>
 .barbar{
   background: url(../../assets/tiao.png);
   margin: 10px auto;
-  height: 8px;
+  height: 20px;
   padding: 2px;
 }
 .bar2{
