@@ -66,7 +66,9 @@ components: {
 
 <style scoped>
 .title {
-  width: 60%;
+   position: relative;
+    left: 5%;;
+  width: 90%;
   height: 20%;
   text-align: center;
 }
