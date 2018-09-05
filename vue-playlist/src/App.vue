@@ -1,16 +1,10 @@
 <template>
   <div id="app">
     <app-header></app-header>
-   
-
-    <div class="container">
-       <app-Navigation></app-Navigation>
-     <router-view></router-view>
-    </div>
-    
-
-   
-    
+      <div class="container">
+        <app-Navigation></app-Navigation>
+        <router-view></router-view>
+      </div>  
     <app-footer></app-footer>
   </div>
 </template>
@@ -32,7 +26,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
+body{
+  background-color:#f5f5f5;
+}
 
 </style>

@@ -14,7 +14,7 @@
     </div>
     <div class="bar2">
     </div>
-    <router-view></router-view>
+    <hero></hero>
    <div class="barbar">
     </div>
     
@@ -41,8 +41,8 @@ export default {
 .barbar{
   background: url(../../assets/tiao.png);
   margin: 10px auto;
-  height: 8px;
-  padding: 2px;
+  height: 20px;
+  padding: 3px;
 }
 .bar2{
     background: url(../../assets/bar2.jpg);

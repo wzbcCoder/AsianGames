@@ -2,6 +2,7 @@
     <div class="IntroductionToAthletes">
         运动员介绍
         <Normal></Normal>
+        <router-view></router-view>
     
     </div>
 

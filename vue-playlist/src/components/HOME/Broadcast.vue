@@ -52,10 +52,5 @@
   width: 100%;
   
 }
-.barbar{
-  background: url(../../assets/tiao.png);
-  margin: 10px auto;
-  height: 8px;
-  padding: 2px;
-}
+
 </style>
