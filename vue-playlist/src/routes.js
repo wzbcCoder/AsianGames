@@ -55,12 +55,12 @@ export const routes = [
     {path:'/Moment1',name:"Moment1",component:Moment1},
     {path:'/Moment2',name:"Moment2",component:Moment2},
     {path:'/Moment3',name:"Moment3",component:Moment3},
-    {path:'/Moment4',name:"Moment1",component:Moment4},
-    {path:'/Moment5',name:"Moment1",component:Moment5},
-    {path:'/Moment6',name:"Moment1",component:Moment6},
-    {path:'/Moment7',name:"Moment1",component:Moment7},
-    {path:'/Moment8',name:"Moment1",component:Moment8},
-    {path:'/Moment9',name:"Moment1",component:Moment9}  ,
+    {path:'/Moment4',name:"Moment4",component:Moment4},
+    {path:'/Moment5',name:"Moment5",component:Moment5},
+    {path:'/Moment6',name:"Moment6",component:Moment6},
+    {path:'/Moment7',name:"Moment7",component:Moment7},
+    {path:'/Moment8',name:"Moment8",component:Moment8},
+    {path:'/Moment9',name:"Moment9",component:Moment9}  ,
     {path:'/waterfall',name:"waterfall",component:waterfall}  ,
     {path:'*',redirect:'/'}
 

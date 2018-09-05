@@ -3,10 +3,10 @@
 
         
         <li v-for="(img,index) in imgs" :key="index" @mouseenter="enter($event)" @mouseleave="leave($event)">
-            <a href="#" target="_blank" >
-                <img v-bind:src="img">
-
-            </a>
+           
+          <router-link :to="{name:'Moment'+(index+1)}"><img v-bind:src="img"></router-link>
+                
+        
         </li>
     </ul>
 </template>
