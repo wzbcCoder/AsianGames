@@ -1,7 +1,7 @@
 <template>
     <div class="IntroductionToAthletes">
-        运动员介绍
-        <!-- <Normal></Normal> -->
+        <h1 class="text-center">运动员标题</h1> 
+        
         <router-view></router-view>
     
     </div>
@@ -10,7 +10,6 @@
 
 <script>
 
-// import Normal from './Normal'
 
 export default {
   name: 'IntroductionToAthletes',

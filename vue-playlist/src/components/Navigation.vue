@@ -29,7 +29,7 @@
       </li>
 
        <li class="nav-item">
-        <a v-on:click="gotoPhoto()" class="nav-link">照片墙</a>
+       <router-link to="/PhotoPage" >PhotoPage</router-link>
       </li>
 
     </ul>
