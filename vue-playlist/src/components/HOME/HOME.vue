@@ -12,8 +12,9 @@
     </div>
     <div class="barbar">
     </div>
-    <div class="bar2">
-    </div>
+    <!-- <div class="bar2">
+    </div> -->
+    <sportEvent></sportEvent>
     <hero></hero>
    <div class="barbar">
     </div>
@@ -26,6 +27,7 @@ import Broadcast from './Broadcast'
 import Video from './Video'
 import Medallist from './Medallist'
 import Hero from './HERO/Hero'
+import SportEvent from './SportEvent'
 
 export default {
     components:{
@@ -33,7 +35,8 @@ export default {
         broadcast:Broadcast,
         "app-video":Video,
         medallist:Medallist,
-        hero:Hero
+        hero:Hero,
+        sportEvent:SportEvent
     }
 }
 </script>
@@ -44,11 +47,11 @@ export default {
   height: 20px;
   padding: 3px;
 }
-.bar2{
+/* .bar2{
     background: url(../../assets/bar2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 75px;
-}
+} */
 </style>
 
