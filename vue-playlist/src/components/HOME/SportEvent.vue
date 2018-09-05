@@ -60,7 +60,7 @@
 
             </a>
         </li> -->
-        <li v-for="(img,index) in imgs" @mouseenter="enter(index)" @mouseleave="leave()">
+        <li v-for="(img,index) in imgs" :key="img.index" @mouseenter="enter(index)" @mouseleave="leave()">
             <a href="#" target="_blank" v-bind:class="index" >
                 <img v-bind:src="img">
 
