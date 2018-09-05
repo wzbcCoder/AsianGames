@@ -29,7 +29,7 @@
       </li>
 
        <li class="nav-item">
-       <router-link to="/PhotoPage" >PhotoPage</router-link>
+       <router-link to="/waterfall" >waterfall</router-link>
       </li>
 
     </ul>
