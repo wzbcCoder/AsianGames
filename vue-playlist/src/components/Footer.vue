@@ -2,36 +2,34 @@
 <footer>
   <div class="bj">
     <div class="container-fluid text-center">
-<div class="row">
-  <div class="col opacity">
-    <img src="../assets/china.jpg" alt="">
-  </div>
+
+  
   <div class="col">
-<h3 style="color:white;">开发者</h3>
+<h3 style="color:black;">开发者</h3>
       <div class="row">
         <div class="col">
         </div>
         <div class="col">
-            Judy;Kuohow;Rion
+            <b>Judy;Kuohow;Rion</b>
         </div>
         <div class="col"></div>
       </div>
-      <h4 style="color:pink;">联系我们</h4>
+      <h4 style="color:black;">联系我们</h4>
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
            <img src="../assets/o3.png" style="height:20px;" alt="">
-          thebestgroup@163.com
+          <b>thebestgroup@163.com</b>
           <img src="../assets/o4.png" style="height:20px;" alt="">
-          WX:zhongguoduoguan
+          <b>WX:zhongguoduoguan</b>
           <img src="../assets/o9.png" style="height:20px;" alt="">
-          158-8888-8888
+          <b>158-8888-8888</b>
         </div>
         <div class="col-md-1"></div>
       </div>
       <p>Copyright ©2018  极速开发小组 . All rights reserved .</p>
   </div>
-  <div class="col"></div>
+  
 </div>
 
 
@@ -41,7 +39,7 @@
 
 
     </div>
-  </div>
+ 
 </footer>
 </template>
 
@@ -60,8 +58,9 @@ export default {
   background-repeat:no-repeat;   */
   height: 100%;
   width: 100%;
-  
-  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background:url(../assets/jiao2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .biaoti{
   height: 100px;

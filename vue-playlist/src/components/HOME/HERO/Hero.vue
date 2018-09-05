@@ -18,7 +18,7 @@
         
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 ">
             <div class="card-expansion">
     <md-card>
       <md-card-media>
@@ -413,7 +413,7 @@ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
   }
 
   .md-card {
-    width: 345px;
+    width: 340px;
     margin: 3px;
     display: inline-block;
     vertical-align: top;
