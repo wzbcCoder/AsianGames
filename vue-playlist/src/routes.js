@@ -15,7 +15,7 @@ import Moment8 from './components/chinaMoment/Moment8.vue'
 import Moment9 from './components/chinaMoment/Moment9.vue'
 
 
-import Hero from './components/HOME/HERO/Hero.vue'
+
 
 
 import StepperLinear1 from './components/IntroductionToAthletes/StepperLinear1'
