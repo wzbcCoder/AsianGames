@@ -1,7 +1,7 @@
 <template>
-  <div id="waterfall">
-    <!-- <demo-header @change="refresh"></demo-header> -->
-    <div class="waterfall">
+  <div id="waterfall" class="ioon" >
+
+    <div class="waterfall" >
       <bricks
         ref="bricks"
         :data="waterfallData" 
@@ -10,6 +10,7 @@
         @reach="addItem"
         @update="done"
         @pack="done"   
+        class="container"
     >
         <template slot-scope="scope">
           <div class="card">
@@ -41,8 +42,7 @@ import itemFactory from '../../lib/item-factory'
 import demoHeader from './header'
 import dataLoader from './loader'
 
-const huabanImages = ["http://img.hb.aicdn.com/3a6b3bd1f46fbc94927679c635336ffb993efe5c41909-vNCTwF_fw236", "http://img.hb.aicdn.com/ac1f108db09c28b2a3ad6d03331abec5c21dc8aeca393-47vMPl_fw236", "http://img.hb.aicdn.com/fe96c8841043f5b8155eec3b36c57657ba9641c914faa-tSgXZ9_fw236", "http://img.hb.aicdn.com/94855caef98e1139411531e2e1496b259a3a030414255-qYlUZf_fw236", "http://img.hb.aicdn.com/b84fc8c7a532fb5b3a5298c8052b9e097c8433e860438-shRN54_fw236", "http://img.hb.aicdn.com/3f9f531759a6e4f7f738c85bab50525d6c26fbad2070d-AFiuSU_fw236", "http://img.hb.aicdn.com/f6c625b54b8328ceddff1c55d5a00007c438c6f796f18-OEhi5v_fw236", "http://img.hb.aicdn.com/08b54d5b5218c9330d31376f19a0a8144dc04ca95e2e8-76uT35_fw236", "http://img.hb.aicdn.com/5f73909e54bd694712a4f1bf546ecc37bca074db5db84-rsAmm6_fw236", "http://img.hb.aicdn.com/762ccfa3858969791118aad706887d9f76f00ff57f5d1-wUDVmJ_fw236", "http://img.hb.aicdn.com/7303810ccf5fa649db989686df95e9ef846aa7e551a92-z1cKrX_fw236", "http://img.hb.aicdn.com/eea447364bee2a5cec7f6a1b06df3820e97882463251b-ZWRRgB_fw236", "http://img.hb.aicdn.com/c54df45fba647c28238ede4ebc825d616ce4b8092cb8c-qAUHgv_fw236", "http://img.hb.aicdn.com/e1d40f4beca1178aca902fcea1b17ebe554bc0728605d-Xud8IC_fw236", "http://img.hb.aicdn.com/38e5fa0a3bbfcfc6acd556ed303a8457af59acdace12f-IWHdZi_fw236", "http://img.hb.aicdn.com/1f7ba3a69495956cbba101f7f04aab85a65107b036f2c-AELCaK_fw236", "http://img.hb.aicdn.com/5a869e408d5ae610cf3aed479cf248ba1c6ac1674e4fc-SLVhoo_fw236", "http://img.hb.aicdn.com/901fff0b07b7c28f6076d788bca5a7871f5521ca6cda8-lUMBNj_fw236", "http://img.hb.aicdn.com/725d96417c2148d03b35424454a244ea9bff80e47d425-nH8YMS_fw236", "http://img.hb.aicdn.com/4fe7519dca2b2828d2e1ed4dd3dc45177d3f782e17688-xnEHle_fw236", "http://img.hb.aicdn.com/8153cdbcde57041ee4a9e6eaf1582b3f9bbff4b550023-gmqwsq_fw236", "http://img.hb.aicdn.com/5f93b0ebdfdedae03fcaaa6e312ae638ed09c6edb3210-VMLPks_fw236", "http://img.hb.aicdn.com/2a4e698aaa7d1817d52dd172aeda54a6e7a319f9894e7-L7DdFX_fw236", "http://img.hb.aicdn.com/87dad464f1d7a12aca4a9d537455c5a48ba763941a4403-QRNICb_fw236", "http://img.hb.aicdn.com/e614eb82ef8f1fb809704b7b18e4a14bb8692788144c2-lbKgbD_fw236", "http://img.hb.aicdn.com/23c49e8ce3b44bea20f7dbf861c6ba916bc497bb26193-AD94Km_fw236", "http://img.hb.aicdn.com/bb6460808cb694a84995716d1d5924ca9a4331ad1b614-xomxvo_fw236", "http://img.hb.aicdn.com/46fdc28bb3442090fa090e3e46f9839ccf1cb83a2d32f-vr95n0_fw236", "http://img.hb.aicdn.com/c1d1554c408f0d597594be7cffece8e06612f4cc1f229-BM4UKl_fw236", "http://img.hb.aicdn.com/e709eacb97674c749d5d4f61029b86884c218d29200d9-IZPTsV_fw236"]
-
+const huabanImages = ['http://img1.gtimg.com/21/2144/214410/21441075_980x1200_0.jpg', 'http://img1.gtimg.com/21/2144/214410/21441063_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214410/21441026_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214409/21440980_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214409/21440970_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214409/21440953_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214409/21440952_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214409/21440944_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214409/21440941_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214409/21440935_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214409/21440934_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214409/21440931_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214409/21440930_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214408/21440898_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214408/21440874_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214408/21440860_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214408/21440819_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214407/21440721_980x1200_0.jpg', 'http://img1.gtimg.com/21/2144/214405/21440583_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214407/21440712_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214406/21440635_980x1200_0.jpg', 'http://img1.gtimg.com/21/2144/214406/21440630_980x1200_0.jpg', 'http://img1.gtimg.com/21/2144/214406/21440604_980x1200_0.jpg', 'http://img1.gtimg.com/21/2144/214405/21440566_980x1200_0.jpg', 'http://img1.gtimg.com/21/2144/214405/21440559_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214405/21440585_980x1200_0.jpg', 'http://img1.gtimg.com/21/2144/214405/21440539_980x1200_0.jpg', 'http://img1.gtimg.com/21/2144/214405/21440586_980x1200_0.jpg', 'http://img1.gtimg.com/21/2144/214403/21440372_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214403/21440349_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214403/21440329_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214402/21440272_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214402/21440260_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214400/21440097_980x1200_292.jpg', 'http://img1.gtimg.com/21/2144/214400/21440066_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214397/21439723_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214394/21439464_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214390/21439081_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214394/21439426_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214393/21439320_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214393/21439353_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214393/21439321_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214392/21439295_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214392/21439252_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214392/21439265_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214392/21439262_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214392/21439210_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214391/21439196_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214391/21439170_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214391/21439162_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214391/21439153_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214391/21439136_980x1200_0.jpg', 'http://img1.gtimg.com/21/2143/214391/21439130_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214391/21439125_980x1200_292.png', 'http://img1.gtimg.com/21/2143/214391/21439122_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214389/21438999_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214389/21438960_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214389/21438944_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214389/21438950_980x1200_292.jpg', 'http://img1.gtimg.com/21/2143/214389/21438922_980x1200_292.jpg']
 export default {
   name: 'waterfall',
   components: {
@@ -100,7 +100,7 @@ export default {
 }
 </script>
 
-<style >
+<style scoped >
 * {
   margin: 0;
   padding: 0;
@@ -173,7 +173,8 @@ a {
 }
 .loading {
   position: fixed;
-  bottom: 1rem;
+  bottom: 10rem;
+
   left: 50%;
   margin-left: -30px;
   transition: all .3s;
@@ -191,5 +192,9 @@ a {
 }
 .go-top:hover {
   background: rgba(255, 255, 255, 1);
+}
+.ioon{
+  position: relative;
+  right:10%;
 }
 </style>

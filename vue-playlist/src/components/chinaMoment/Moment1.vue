@@ -12,13 +12,15 @@
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
   </ul>
  
   <!-- 轮播图片 -->
   <div class="carousel-inner">
     <div class="carousel-item active">
         
-      <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536221835070&di=21f19ae7f0568d07c4d49394d277fadb&imgtype=0&src=http%3A%2F%2Fsports.ycwb.com%2Fpic%2F2018-08%2F29%2Fe6fab448-6e22-48f3-862f-3b6c07c812187c5af636-4fb0-4cb0-9adf-7e755276fd02_batchwm.jpg">
+      <img src="http://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/pghXiobmwepkqsv.jpg">
       <div class="carousel-caption">
         <h3>第一张图片描述标题</h3>
         <p>描述文字!</p>
@@ -26,14 +28,30 @@
     </div>
     <div class="carousel-item">
         
-      <img src="http://static.runoob.com/images/mix/img_nature_wide.jpg">
+      <img src="https://wx1.sinaimg.cn/large/86064651ly4fuydmddzdqj20fe0a9mxt.jpg">
       <div class="carousel-caption">
         <h3>第二张图片描述标题</h3>
         <p>描述文字!</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="http://static.runoob.com/images/mix/img_mountains_wide.jpg">
+      <img src="http://pic.3h3.com/up/2018-8/201883081854986080_558.jpg">
+      <div class="carousel-caption">
+        <h3>第三张图片描述标题</h3>
+        <p>描述文字!</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://www.shouyouzhijia.net/img2018/8/27/2018082781736262.jpg">
+      <div class="carousel-caption">
+        <h3>第三张图片描述标题</h3>
+        <p>描述文字!</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="http://www.gamemei.com/background/uploads/allimg/20180828/1535443963934909.jpg">
       <div class="carousel-caption">
         <h3>第三张图片描述标题</h3>
         <p>描述文字!</p>
@@ -68,7 +86,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=a7458cac4090f60310bd9415587bd87e/0dd7912397dda14480f36c2fb8b7d0a20df486b0.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="http://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/pghXiobmwepkqsv.jpg" alt="Card image cap">
                             </div>
                         </div>
                          <div class="col-md-8">
@@ -91,7 +109,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=a7458cac4090f60310bd9415587bd87e/0dd7912397dda14480f36c2fb8b7d0a20df486b0.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="https://www.shouyouzhijia.net/img2018/8/27/2018082781736262.jpg" alt="Card image cap">
                             </div>
                         </div>
                          <div class="col-md-8">
@@ -118,7 +136,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=a7458cac4090f60310bd9415587bd87e/0dd7912397dda14480f36c2fb8b7d0a20df486b0.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="http://img5.imgtn.bdimg.com/it/u=921546284,513154347&fm=11&gp=0.jpg" alt="Card image cap">
                             </div>
                         </div>
                          <div class="col-md-8">

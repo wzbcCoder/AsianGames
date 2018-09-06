@@ -18,7 +18,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         
-      <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536221835070&di=21f19ae7f0568d07c4d49394d277fadb&imgtype=0&src=http%3A%2F%2Fsports.ycwb.com%2Fpic%2F2018-08%2F29%2Fe6fab448-6e22-48f3-862f-3b6c07c812187c5af636-4fb0-4cb0-9adf-7e755276fd02_batchwm.jpg">
+      <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536851374&di=ce3d4de6d9c9ee9877d10575cbdec8f4&imgtype=jpg&er=1&src=http%3A%2F%2Fqimg.hxnews.com%2F2018%2F0827%2F1535332682302.jpg">
       <div class="carousel-caption">
         <h3>第一张图片描述标题</h3>
         <p>描述文字!</p>
@@ -26,14 +26,14 @@
     </div>
     <div class="carousel-item">
         
-      <img src="http://static.runoob.com/images/mix/img_nature_wide.jpg">
+      <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536256744184&di=4ef5f137dd4779b144bf1afe51351ec7&imgtype=0&src=http%3A%2F%2Fv-img.zjol.com.cn%2F207379.jpg">
       <div class="carousel-caption">
         <h3>第二张图片描述标题</h3>
         <p>描述文字!</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="http://static.runoob.com/images/mix/img_mountains_wide.jpg">
+      <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536256761845&di=0a6433efb3668399d8d9577eed38e96a&imgtype=0&src=http%3A%2F%2Fqimg.hxnews.com%2F2018%2F0827%2F1535332682448.jpg">
       <div class="carousel-caption">
         <h3>第三张图片描述标题</h3>
         <p>描述文字!</p>
@@ -68,7 +68,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=a7458cac4090f60310bd9415587bd87e/0dd7912397dda14480f36c2fb8b7d0a20df486b0.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536851521&di=da2dc3addd4fdd0c456bf03f199c6227&imgtype=jpg&er=1&src=http%3A%2F%2Fn.sinaimg.cn%2Fsports%2Fcrawl%2F116%2Fw550h366%2F20180828%2FkXu3-hifuvpi1653584.jpg" alt="Card image cap">
                             </div>
                         </div>
                          <div class="col-md-8">

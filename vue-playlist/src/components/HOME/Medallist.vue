@@ -76,7 +76,15 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
     /* background-color: #FFE53B;
 background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%); */
     /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
-    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+    /* background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 12%, #FFE32C 50%, #f50707 100%); */
+/* background-color: #FFE53B;
+background-image: linear-gradient(90deg, #FFE53B 57%, #78ff25 84%); */
+background-color: #FFE53B;
+/* background-image: linear-gradient(90deg, #FFE53B 18%, #2589ff 63%, #ffffff 99%, #ffffff 100%); */
+
+
 }
 .threed {
     color: #ffffff;
