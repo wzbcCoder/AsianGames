@@ -27,7 +27,7 @@
    
     <div class="content">
       <md-steppers>
-        <md-step id="first" md-label="个人最佳" v-show="true">
+        <md-step id="first" md-label="个人最佳" >
           <div class="table">
             <table class="table">
               <thead>
