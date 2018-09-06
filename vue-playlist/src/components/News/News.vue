@@ -1,19 +1,24 @@
     <template>
     <div class="News">
 
-        <div class="input-group search">
-            <md-field>
+       
+
+         <div class="input-group search">
+           <md-field>
                 <label>search KEY</label>
-                <md-input required v-model="search" class="form-control subsearch" placeholder="I can help you to find anything you want!">
+                 <md-input required v-model="search" class="form-control subsearch" placeholder="I can help you to find anything you want!">
 
-                </md-input>
-                <div class="input-group-addon">
-                    <i class="fa fa-search"></i>
-                </div>
-            </md-field>
-        </div>
+                 </md-input>
+                 <div class="input-group-addon">
+                     <i class="fa fa-search"></i>
+                 </div>
+             </md-field>
+         </div>
+    
 
-        <div v-for="(New,index) in filteredNews" :key="index" class="all demo_line_01">
+         <div class="card">
+            <div class="card-body">
+                <div v-for="(New,index) in filteredNews" :key="index" class="all demo_line_01">
             <div v-if="index >= (curPage-1)*pageSize && index < curPage*pageSize">
                 <div class="title">
 
@@ -35,6 +40,10 @@
                 </div>
             </div>
         </div>
+            </div>
+        </div>
+
+        
 
         <div class="pagination_div">
             <ul class="pagination">
@@ -78,9 +87,14 @@
 </template>
 
     <script>
+
+
+
 export default {
     name: "News",
-    components: {},
+    components: {
+
+    },
     data() {
         return {
             News: [],
