@@ -1,5 +1,5 @@
 <template>
-    <div class="Moment1">
+    <div class="Moment5">
        
         <div class="container">
             <div class="card">
@@ -20,23 +20,20 @@
         
       <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536257188877&di=1731fe36df1354f131492e4eba517169&imgtype=0&src=http%3A%2F%2Fwww.xinhuanet.com%2Fsports%2F2018-08%2F30%2F1123353901_15356092342171n.jpg">
       <div class="carousel-caption">
-        <h3>第一张图片描述标题</h3>
-        <p>描述文字!</p>
+        
       </div>
     </div>
     <div class="carousel-item">
         
       <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536852022&di=42d6ef0e840e035719192397d8bce456&imgtype=jpg&er=1&src=http%3A%2F%2F07imgmini.eastday.com%2Fmobile%2F20180823%2F20180823091627_5274e44d0c4c9db997d9cce66be6a04f_2.jpeg">
       <div class="carousel-caption">
-        <h3>第二张图片描述标题</h3>
-        <p>描述文字!</p>
+        
       </div>
     </div>
     <div class="carousel-item">
       <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536257321538&di=74d09c5ee7377104da622d2760f6e158&imgtype=0&src=http%3A%2F%2Fp2.cri.cn%2FM00%2FC8%2FD6%2FCqgNOluHrXeAIsbqAAAAAAAAAAA410.899x482.jpg">
       <div class="carousel-caption">
-        <h3>第三张图片描述标题</h3>
-        <p>描述文字!</p>
+        
       </div>
     </div>
   </div>
@@ -157,9 +154,10 @@ export default {
 .card {
   width: 100%;
 }
+.Moment5
 .carousel-item img{
   width: 100%;
-  
+  height: 550px;
 }
 
 </style>

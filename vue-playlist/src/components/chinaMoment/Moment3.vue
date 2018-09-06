@@ -1,5 +1,5 @@
 <template>
-    <div class="Moment1">
+    <div class="Moment3">
        
         <div class="container">
             <div class="card">
@@ -20,23 +20,20 @@
         
       <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536851374&di=ce3d4de6d9c9ee9877d10575cbdec8f4&imgtype=jpg&er=1&src=http%3A%2F%2Fqimg.hxnews.com%2F2018%2F0827%2F1535332682302.jpg">
       <div class="carousel-caption">
-        <h3>第一张图片描述标题</h3>
-        <p>描述文字!</p>
+        
       </div>
     </div>
     <div class="carousel-item">
         
       <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536256744184&di=4ef5f137dd4779b144bf1afe51351ec7&imgtype=0&src=http%3A%2F%2Fv-img.zjol.com.cn%2F207379.jpg">
       <div class="carousel-caption">
-        <h3>第二张图片描述标题</h3>
-        <p>描述文字!</p>
+        
       </div>
     </div>
     <div class="carousel-item">
       <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536256761845&di=0a6433efb3668399d8d9577eed38e96a&imgtype=0&src=http%3A%2F%2Fqimg.hxnews.com%2F2018%2F0827%2F1535332682448.jpg">
       <div class="carousel-caption">
-        <h3>第三张图片描述标题</h3>
-        <p>描述文字!</p>
+       
       </div>
     </div>
   </div>
@@ -112,9 +109,10 @@ export default {
 .card {
   width: 100%;
 }
+.Moment3
 .carousel-item img{
   width: 100%;
-  
+  height: 600px;
 }
 
 </style>

@@ -143,7 +143,7 @@ export default {
 .Moment9
 .carousel-item img{
   width: 100%;
-  height: 400px;
+  height: 550px;
 }
 </style>
 

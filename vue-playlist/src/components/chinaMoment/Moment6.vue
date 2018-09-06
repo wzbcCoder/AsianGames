@@ -144,7 +144,7 @@ export default {
 .Moment6
 .carousel-item img{
   width: 100%;
-  height: 500px;
+  height: 550px;
 }
 </style>
 

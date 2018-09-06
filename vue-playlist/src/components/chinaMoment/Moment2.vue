@@ -162,9 +162,10 @@ export default {
 .card {
   width: 100%;
 }
+.Moment2
 .carousel-item img{
   width: 100%;
-  
+  height: 550px;
 }
 
 </style>

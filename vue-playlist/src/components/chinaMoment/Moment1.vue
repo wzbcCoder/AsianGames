@@ -22,39 +22,39 @@
         
       <img src="http://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/pghXiobmwepkqsv.jpg">
       <div class="carousel-caption">
-        <h3>第一张图片描述标题</h3>
-        <p>描述文字!</p>
+        <!-- <h3>第一张图片描述标题</h3>
+        <p>描述文字!</p> -->
       </div>
     </div>
     <div class="carousel-item">
         
       <img src="https://wx1.sinaimg.cn/large/86064651ly4fuydmddzdqj20fe0a9mxt.jpg">
       <div class="carousel-caption">
-        <h3>第二张图片描述标题</h3>
-        <p>描述文字!</p>
+        <!-- <h3>第二张图片描述标题</h3>
+        <p>描述文字!</p> -->
       </div>
     </div>
     <div class="carousel-item">
       <img src="http://pic.3h3.com/up/2018-8/201883081854986080_558.jpg">
       <div class="carousel-caption">
-        <h3>第三张图片描述标题</h3>
-        <p>描述文字!</p>
+        <!-- <h3>第三张图片描述标题</h3>
+        <p>描述文字!</p> -->
       </div>
     </div>
 
     <div class="carousel-item">
       <img src="https://www.shouyouzhijia.net/img2018/8/27/2018082781736262.jpg">
       <div class="carousel-caption">
-        <h3>第三张图片描述标题</h3>
-        <p>描述文字!</p>
+        <!-- <h3>第三张图片描述标题</h3>
+        <p>描述文字!</p> -->
       </div>
     </div>
 
     <div class="carousel-item">
       <img src="http://www.gamemei.com/background/uploads/allimg/20180828/1535443963934909.jpg">
       <div class="carousel-caption">
-        <h3>第三张图片描述标题</h3>
-        <p>描述文字!</p>
+        <!-- <h3>第三张图片描述标题</h3>
+        <p>描述文字!</p> -->
       </div>
     </div>
   </div>
@@ -170,9 +170,10 @@ export default {
 .card {
   width: 100%;
 }
+.Moment1
 .carousel-item img{
   width: 100%;
-  
+  height: 550px;
 }
 
 </style>

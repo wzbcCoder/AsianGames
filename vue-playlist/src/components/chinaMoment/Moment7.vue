@@ -112,7 +112,7 @@ export default {
 .Moment7
 .carousel-item img{
   width: 100%;
-  height: 500px;
+  height: 550px;
 }
 </style>
 
