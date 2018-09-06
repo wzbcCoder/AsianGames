@@ -210,19 +210,19 @@
           <div class="card-expansion">
             <md-card>
               <md-card-media>
-                <img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=c70c2f319cef76c6c4dff379fc7f969f/faedab64034f78f0d5e767e375310a55b3191c35.jpg" alt="People">
+                <img src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=126f642dd300baa1ae214fe92679d277/10dfa9ec8a136327ef826bf2938fa0ec09fac780.jpg" alt="People">
               </md-card-media>
 
               <md-card-header>
-                <div class="md-title">Title goes here</div>
-                <div class="md-subhead">Subtitle here</div>
+                <div class="md-title">滑冰奥运冠军</div>
+                <div class="md-subhead">张虹</div>
               </md-card-header>
 
               <md-card-expand>
                 <md-card-actions md-alignment="space-between">
                   <div>
                     <router-link :to="{name:'StepperLinear6'}">
-                      <md-button>Action</md-button>
+                      <md-button>查看更多</md-button>
                     </router-link>
                   </div>
 
@@ -235,7 +235,7 @@
 
                 <md-card-expand-content>
                   <md-card-content>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
+                   张虹，1988年4月12日出生于黑龙江省哈尔滨市，中国速度滑冰运动员。2014年索契冬奥会冠军。全国五一劳动奖章、第16届黑龙江省青年五四奖章、哈尔滨市三八红旗手标兵称号获得者。北京冬奥组委运动员委员会委员   。
                   </md-card-content>
                 </md-card-expand-content>
               </md-card-expand>
