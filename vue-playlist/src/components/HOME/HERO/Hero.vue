@@ -26,14 +26,14 @@
       </md-card-media>
 
       <md-card-header>
-        <div class="md-title">Title goes here</div>
-        <div class="md-subhead">Subtitle here</div>
+        <div class="md-title">亚洲飞人</div>
+        <div class="md-subhead">苏炳添</div>
       </md-card-header>
 
       <md-card-expand>
         <md-card-actions md-alignment="space-between">
           <div>
-            <router-link :to="{name:'StepperLinear1'}"><md-button>Action</md-button></router-link>
+            <router-link :to="{name:'StepperLinear1'}"><md-button>查看介绍</md-button></router-link>
           </div>
 
           <md-card-expand-trigger>
@@ -45,8 +45,8 @@
 
         <md-card-expand-content>
           <md-card-content>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
-          </md-card-content>
+            初中时期，苏炳添与短跑结缘，上初二时，他为了逃避留校补课而参加学校的田径队。2004年11月，15岁的苏炳添第一次参加了正规的比赛——中山市中学生田径比赛...
+            </md-card-content>
         </md-card-expand-content>
       </md-card-expand>
     </md-card>
@@ -59,18 +59,20 @@
             <div class="card-expansion">
     <md-card>
       <md-card-media>
-        <img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=c70c2f319cef76c6c4dff379fc7f969f/faedab64034f78f0d5e767e375310a55b3191c35.jpg" alt="People">
+        <img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=94f9fb35e550352aa56c2d5a322a9097/a2cc7cd98d1001e9970be08db40e7bec54e79779.jpg" alt="People">
       </md-card-media>
 
       <md-card-header>
-        <div class="md-title">Title goes here</div>
-        <div class="md-subhead">Subtitle here</div>
+        <div class="md-title">UZI 
+          
+        </div>
+        <div class="md-subhead">简自豪</div>
       </md-card-header>
 
       <md-card-expand>
         <md-card-actions md-alignment="space-between">
           <div>
-              <router-link :to="{name:'StepperLinear2'}"><md-button>Action</md-button></router-link>
+              <router-link :to="{name:'StepperLinear2'}"><md-button>查看介绍</md-button></router-link>
           </div>
 
           <md-card-expand-trigger>
@@ -82,7 +84,7 @@
 
         <md-card-expand-content>
           <md-card-content>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
+            2012年初因为家庭原因的简自豪搬家到了新的城市惠州，由于新搬家过来的学籍和转学的问题让他有了在家玩游戏的机会。后来被陈芳辉(虎妞)发现并介绍到皇族战队，开始自己的职业生涯...
           </md-card-content>
         </md-card-expand-content>
       </md-card-expand>
