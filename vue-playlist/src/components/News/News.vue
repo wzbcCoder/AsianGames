@@ -16,13 +16,14 @@
          </div>
     
 
-         <div class="card">
-            <div class="card-body">
-                <div v-for="(New,index) in filteredNews" :key="index" class="all demo_line_01">
-            <div v-if="index >= (curPage-1)*pageSize && index < curPage*pageSize">
-                <div class="title">
 
-                    <router-link v-rainbow :to="{path:'/NewsArticle/', query:{title:New.title} }">
+      
+      
+             <div v-for="(New,index) in filteredNews" :key="index" class="all demo_line_01">
+                    <div v-if="index >= (curPage-1)*pageSize && index < curPage*pageSize">
+                        <div class="title">
+
+                        <router-link v-rainbow :to="{path:'/NewsArticle/', query:{title:New.title} }">
                         <h2>{{ New.title }}</h2>
                     </router-link>
 
@@ -40,8 +41,11 @@
                 </div>
             </div>
         </div>
-            </div>
-        </div>
+        
+     
+               
+     
+       
 
         
 
