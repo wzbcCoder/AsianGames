@@ -1,5 +1,5 @@
 <template>
-    <div class="Moment7">
+    <div class="Moment10">
        
         <div class="container">
              <div>
@@ -10,37 +10,29 @@
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
-    <li data-target="#demo" data-slide-to="3"></li>
   </ul>
  
   <!-- 轮播图片 -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../../assets/moment/zhongguonvpai1.jpg">
+      <img src="../../assets/moment/ticaolizhikai.jpg">
       <div class="carousel-caption">
-        <h3>中国女排雅加达夺冠</h3>
+        <h3>李智凯鞍马夺冠助中国台北取亚运体操历史首金</h3>
         
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../../assets/moment/zhongguonvpai2.jpg">
+      <img src="../../assets/moment/ticaodengshudi.jpg">
       <div class="carousel-caption">
-        <h3>中国女排雅加达夺冠</h3>
+        <h3>雅加达亚运会体操男子吊环决赛 中国选手邓书弟夺冠</h3>
        
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../../assets/moment/zhongguonvpai3.jpg">
+      <img src="../../assets/moment/ticaoliuttluohuan.jpg">
       <div class="carousel-caption">
-        <h3>中国女排雅加达夺冠</h3>
+        <h3>亚运会体操女子高低杠决赛 中国选手包揽冠亚军</h3>
         
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="../../assets/moment/zhongguonvpai4.jpg">
-      <div class="carousel-caption">
-        <h3>中国女排雅加达夺冠</h3>
-       
       </div>
     </div>
   </div>
@@ -134,7 +126,7 @@
 
 <script>
 export default {
-  name: "Momen7",
+  name: "Momen10",
   created(){
       this.menu();
   },
@@ -149,10 +141,10 @@ export default {
 .card {
   width: 100%;
 }
-.Moment7
+.Moment10
 .carousel-item img{
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 </style>
 
