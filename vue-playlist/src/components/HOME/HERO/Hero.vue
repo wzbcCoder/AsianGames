@@ -98,7 +98,7 @@
             <div class="card-expansion">
     <md-card>
       <md-card-media>
-        <img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=c70c2f319cef76c6c4dff379fc7f969f/faedab64034f78f0d5e767e375310a55b3191c35.jpg" alt="People">
+        <img src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=a7458cac4090f60310bd9415587bd87e/0dd7912397dda14480f36c2fb8b7d0a20df486b0.jpg" alt="People">
       </md-card-media>
 
       <md-card-header>
