@@ -47,7 +47,7 @@
   </div>
 </div>
 </template>
-<style>
+<style scoped>
 .carousel-item img{
   width: 100%;
   
