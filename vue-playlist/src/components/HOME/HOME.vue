@@ -1,20 +1,32 @@
 <template>
 <div class="home">
 
-    <broadcast></broadcast>
-    <div class="row">
-        <div class="col-lg-8 col-md-12">
-            <app-video></app-video>
-        </div>
-        <div class="col-lg-4 col-md-12">
-            <medallist></medallist>
+    <div class="card">
+        <div class="card-body">
+            <broadcast></broadcast>
         </div>
     </div>
+    
+    <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                
+                            <div class="col-lg-8 col-md-12">
+                                <app-video></app-video>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <medallist></medallist>
+                            </div>
+                    </div>
+                </div>
+        </div>
+   
     <div class="barbar">
     </div>
-    <!-- <div class="bar2">
-    </div> -->
-    <div class="row">
+    
+    <div class="card">
+        <div class="card-body">
+             <div class="row">
             <div class="col-md-2 col-sm-2 abc">
                 <img src="../../assets/zhongguoshike.png">
             </div>
@@ -29,7 +41,16 @@
             </div>
         </div>
     <sportEvent></sportEvent>
-    <hero></hero>
+        </div>
+    </div>
+
+   <div class="card">
+        <div class="card-body">
+            <hero></hero>
+        </div>
+    </div>
+
+    
    <div class="barbar">
     </div>
     
