@@ -59,19 +59,19 @@
 </div>
             <div class="card" >
                 <div class="card-body" >
-                    <h5 class="card-title">李智凯鞍马夺冠助中国台北取亚运体操历史首金</h5>
+                    <h5 class="card-title">
+中国女排雅加达夺冠</h5>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="../../assets/moment/ticaolizhikai.jpg" alt="Card image cap">
+                                <img class="card-img-top" src="../../assets/moment/zhongguonvpailunbo.jpg" alt="Card image cap">
                             </div>
                         </div>
                          <div class="col-md-8">
                              <div class="card" >
-                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>8月23日</strong>，雅加达亚运会男子鞍马决赛，中国台北选手李智凯以15.400分夺冠，这是中国台北代表团在亚运会体操历史上的首枚金牌。</p>
-                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“夺金的感觉就是一个爽！”李智凯赛后说，8月23日是一个特别的日子。一年前的今天他以15.300分夺得世界大学生运动会鞍马金牌，这是中国台北队首次夺得该赛事鞍马金牌。“只不过这一次，教练把我抱得更紧了！”</p>
-                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“我们按照赛前制定的计划，一步一步来，我们一直在创造历史，我相信我们还将创造历史，我觉得我们是可以做到的。”李智凯说,“今天对我而言是个里程碑”,在世界大学生运动会和亚运会接连夺冠后，他下一个目标就是东京奥运会。</p>
-                            
+                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>9月1号</strong>雅加达亚运会，中国女排在上届亚运会失利之后重新站在了最高领奖台上，她们总能给我们带来喜悦，让我们又一次体味心灵上的震撼，中国女排的姑娘们，用她们的汗水锤炼出高超的技艺与顽强拼搏的斗志，她们的身影是本届亚运会上的又一道风景线，作为世界第一的她们，亚运会的舞台还是太小，但是每一场拼搏她们都认真对待，不论对面强敌环伺，还是只有己身鹤立鸡群，她们都会展现出夺人的风姿，尊重对手，赢得敬畏！</p>
+                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>中国女排</strong>可以说是我国国之劲旅，历经各代名将主帅更迭，它依然走在世界的前列，历届都有其领军人物，灵魂人物，她们带领着中国这支王者之师所向披靡，虽然有过失败，经历过坎坷，但是这些都不能够阻碍我国女排前进的步伐，如今，这支国之劲旅在世界各地冲锋陷阵，哪里有排球，哪里就有她们的身影，她们用自己的完美表现赢得了世界的喝彩，也为中国在世界的声誉以及影响力添了几分亮彩。如今的教练郎平，球队灵魂人物朱婷，正在崛起的小将李盈莹，以及众多经过奥运洗礼的冠军女将已经整装待发，迎接属于中国的辉煌！</p>
+                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>重新崛起</strong>在2013年之后，中国女排再次崛起，重新站上了世界女排的最巅峰，赢得了属于中国的骄傲。这时候“铁榔头”郎平再次执掌中国女排，同时也涌现出一批优秀的球员，如惠若琪，朱婷，袁心玥，张常宁等，这也是中国女排正式崛起之时，在这期间虽然也遭到多次失败，但是凭借着这群巾帼不让须眉的姑娘们的顽强的体育精神以及竞技状态，在时隔12年之后的2016年伦敦奥运会中又一次斩获冠军，重新掌控世界女排，2018年9月1日，在雅加达亚运会中中国女排又一次力克强敌，夺得冠军！</p>
                             </div>
   
                          </div>
@@ -81,50 +81,10 @@
          </div>
 
 
-         <div class="card" >
-                <div class="card-body" >
-                    <h5 class="card-title">雅加达亚运会体操男子吊环决赛 中国选手邓书弟夺冠</h5>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="../../assets/moment/ticaodengshudi.jpg" alt="Card image cap">
-                            </div>
-                        </div>
-                         <div class="col-md-8">
-                             <div class="card" >
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>8月23日</strong>，在刚刚结束的雅加达第18届亚运会体操男子吊环单项决赛中，中国选手、来自贵州的邓书弟以14.750分勇夺冠军，为中国队实现这个项目的5连冠。</p>
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;据悉，赛后邓书弟对于今天吊环决赛的表现很满意。他开心地说：“虽说难度一直都是制胜法宝，但我需要地是很轻松的完成高难度的技术动作，取胜的关键在于下法站稳了。”他还说很感谢大家的支持，很感谢贵州乡亲的支持，同时寄希望于在国家队的贵州体操运动员，要有想法、努力去冲击每一个大赛。</p>
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;预赛第二的邓书弟，后翻成水平十字相当稳健，前翻成水平十字、之后的支撑很好调整了节奏。直体前翻两周难度达到E组，摆动成倒立也非常稳健。下法直体旋下稳稳站住，他的动作细节控制很好，动作交代很清楚，难度6.0，得分14.75。</p>
-                             </div>
-  
-                         </div>
-                    </div>
-                    
-                </div>
-         </div>
+         
 
 
-         <div class="card" >
-                <div class="card-body" >
-                    <h5 class="card-title">亚运会体操女子高低杠决赛 中国选手包揽冠亚军</h5>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="../../assets/moment/ticaoliuttluohuan.jpg" alt="Card image cap">
-                            </div>
-                        </div>
-                         <div class="col-md-8">
-                             <div class="card" >
-                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>8月23日</strong>晚间，雅加达亚运会体操女子高低杠决赛，中国选手刘婷婷(图中)以14.600分夺得冠军，另一位中国选手罗欢(图左)以14.225分获得亚军</p>
-                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高低杠是中国体操女队的传统强项。本届亚运会，刘婷婷和罗欢在该项目上高出其他选手一筹，形成了“双保险”。昨晚的决赛，刘婷婷表现稳定，难度分、完成分分别高达6.000分和8.600分，最终以总分14.600分折桂。</p>
-                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;赛后接受采访时，刘婷婷坦言没想到能够获胜，“我感觉自己的状态不如预赛好，所以我在比赛中只想着如何顺利完成动作。”她还特别提到今年开始执教中国女队的美籍华裔教练乔良，“在我们队员看来，他带来的训练方式和理念都非常先进，对队伍产生了很大影响。在他的指导下，我的信心也在逐渐提升。”</p>
-                             </div>
-  
-                         </div>
-                    </div>
-                    
-                </div>
-         </div>
+         
 
          
         </div>
