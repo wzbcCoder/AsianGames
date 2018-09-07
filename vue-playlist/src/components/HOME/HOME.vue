@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="home">
 
     <broadcast></broadcast>
     <div class="row">

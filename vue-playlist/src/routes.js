@@ -73,7 +73,6 @@ export const routes = [
     {path:'/Moment14',name:"Moment14",component:Moment14},
     {path:'/Moment15',name:"Moment15",component:Moment15},
     {path:'/Moment16',name:"Moment16",component:Moment16},
-    {path:'/waterfall',name:"waterfall",component:waterfall},
     // {path:'/Moment16',name:"Moment16",component:Moment16},
     {path:'*',redirect:'/'}
 
