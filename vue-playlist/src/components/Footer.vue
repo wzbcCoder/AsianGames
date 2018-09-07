@@ -4,7 +4,7 @@
     <div class="container-fluid text-center">
 
   
-  <div class="col">
+  <!-- <div class="col">
 <h3 style="color:black;">开发者</h3>
       <div class="row">
         <div class="col">
@@ -27,10 +27,10 @@
         </div>
         <div class="col-md-1"></div>
       </div>
-      <p>Copyright ©2018  极速开发小组 . All rights reserved .</p>
+      <!-- <p>Copyright ©2018  极速开发小组 . All rights reserved .</p> -->
   </div>
   
-</div>
+</div> -->
 
 
       
