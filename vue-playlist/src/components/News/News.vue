@@ -33,7 +33,8 @@
 
                 </div>
                 <div class="new_img">
-                    <img :src="New.imgurl" />
+                    <!-- "../../assets/" -->
+                    <img :src="'../../../static/'+New.imgurl" />
                 </div>
                 <div class="time">
                     <p>{{New.pubtime}}</p>
@@ -76,16 +77,7 @@
         <div class="block">
         </div>
 
-        <!-- <ul>
-                <li v-for="New in filteredNews " :key="New.index">
-                    <p>标题</p>
-                    <p><router-link   v-rainbow :to="{path:'/NewsArticle/', query:{title:New.title} }">{{New.title }}</router-link><p>
-                    正文<p>{{New.content[0]| snippet }}</p>
-                    <img :src="New.imgurl" />   
-                    <p>出版时间</p>{{New.pubtime}}
-                </li>
-            </ul>
-        </div> -->
+        
     </div>
 
 </template>
@@ -112,6 +104,7 @@ export default {
         fetchMedal() {
             this.$http.get("/News").then(res => {
                 this.News = res.data;
+
                 this.pageCount = Math.ceil(this.News.length / this.pageSize);
             });
         },

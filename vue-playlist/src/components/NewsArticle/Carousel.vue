@@ -2,7 +2,7 @@
     <div class="carousel">
         <transition-group tag='ul' class="clearfix slide" name='image'>
             <li v-for='(image,index) in imgsall' :key='index' v-show='index===mark'>
-                <a><img :src="image"></a>
+                <a><img :src="'../../../static/'+image"></a>
             </li>
 
         </transition-group>
