@@ -1,5 +1,5 @@
 <template>
-
+<div class="zhiding">
   <div>
     <div class="title">
       <h1>天才泳将孙杨</h1>
@@ -81,7 +81,7 @@
     </div>
     
   </div>
-
+</div>
 </template>
 
 <script>

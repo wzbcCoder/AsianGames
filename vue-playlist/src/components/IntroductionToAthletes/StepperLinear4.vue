@@ -1,5 +1,5 @@
 <template>
-
+<div class="zhiding">
   <div>
     <div class="title">
       <h1>女排队长朱婷</h1>
@@ -81,7 +81,7 @@
     </div>
     
   </div>
-
+</div>
 </template>
 
 <script>

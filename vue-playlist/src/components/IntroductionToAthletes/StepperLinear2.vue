@@ -1,5 +1,5 @@
 <template>
-
+<div class="zhiding">
   <div>
     <div class="title">
       <h1>UZI简自豪</h1>
@@ -99,7 +99,7 @@
     </div>
     
   </div>
-
+</div>
 </template>
 
 <script>
