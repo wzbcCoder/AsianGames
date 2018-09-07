@@ -5,7 +5,7 @@
 
          <div class="input-group search">
            <md-field>
-                <label>search KEY</label>
+                <label class="guohao">search KEY</label>
                  <md-input required v-model="search" class="form-control subsearch" placeholder="I can help you to find anything you want!">
 
                  </md-input>
@@ -32,8 +32,7 @@
                     <p>{{New.content[0]| snippet }}</p>
 
                 </div>
-                <div class="new_img">
-                    <!-- "../../assets/" -->
+                <div class="new_img">   
                     <img :src="'../../../static/'+New.imgurl" />
                 </div>
                 <div class="time">
@@ -131,7 +130,7 @@ export default {
     computed: {
         filteredNews: function() {
             return this.News.filter(New => {
-                // console.log(New.title)
+        
                 return New.title.match(this.search);
             });
         }
@@ -195,5 +194,9 @@ export default {
         bottom: 0px;
         left: 250px;
     }
+}
+.guohao{
+    /* position: relative; */
+    bottom:20px;
 }
 </style>

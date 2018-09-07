@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row">
+    <div class="row" id="chinahero""">
       <div class="col-md-2 col-sm-2 abc">
         <img src="../../../assets/hero.png">
       </div>

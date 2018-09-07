@@ -10,11 +10,15 @@
             <medallist></medallist>
         </div>
     </div>
-    <div class="barbar">
+    <div class="barbar" id="sport">
     </div>
+<<<<<<< HEAD
     <zhongguoshike></zhongguoshike>
     <!-- <div class="bar2">
     </div>  -->
+=======
+
+>>>>>>> 文兆杰
     <sportEvent></sportEvent>
     <hero></hero>
    <div class="barbar">
@@ -40,7 +44,9 @@ export default {
         medallist:Medallist,
         hero:Hero,
         sportEvent:SportEvent
-    }
+    },
+    
+  
 }
 </script>
 <style scope>
