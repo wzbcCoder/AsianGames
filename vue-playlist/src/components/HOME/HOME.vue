@@ -12,12 +12,14 @@
     </div>
     <div class="barbar">
     </div>
+    <zhongguoshike></zhongguoshike>
     <!-- <div class="bar2">
     </div>  -->
     <sportEvent></sportEvent>
     <hero></hero>
    <div class="barbar">
     </div>
+    
     
 </div>
 </template>
@@ -28,10 +30,11 @@ import Video from './Video'
 import Medallist from './Medallist'
 import Hero from './HERO/Hero'
 import SportEvent from './SportEvent'
+import Zhongguoshike from './HERO/Zhongguoshike'
 
 export default {
     components:{
-        
+        zhongguoshike:Zhongguoshike,
         broadcast:Broadcast,
         "app-video":Video,
         medallist:Medallist,
@@ -53,5 +56,6 @@ export default {
     background-repeat: no-repeat;
     height: 75px;
 } */
+
 </style>
 

@@ -7,7 +7,7 @@
             </div>
             <div class="col-md-6 col-sm-6 ">
                 <div style="position:absolute;right:20px;bottom:0px;">
-                    <router-link :to="{name:'MedalRankings'}">>查看更多>></router-link>
+                    <router-link :to="{name:'MedalRankings'}">查看更多>></router-link>
                 </div>
             </div>
         </div>
@@ -120,6 +120,7 @@ export default {
 .zongshu {
     font-size: 15px;
 }
+
 </style>
 
 

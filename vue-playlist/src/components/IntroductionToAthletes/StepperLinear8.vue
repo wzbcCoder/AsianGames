@@ -1,6 +1,6 @@
 <template>
   
-
+<div class="zhiding">
   
   <div>
     <span class="md-title">Headline</span>
@@ -36,6 +36,7 @@
       </md-step>
     </md-steppers>
   </div>
+</div>
 </template>
 
 

@@ -14,6 +14,7 @@
         </div>
       </div>
     </div>
+    
     <div class="hero">
 
       <div class="row">
@@ -270,10 +271,7 @@ export default {
     height: 45px;
     border-bottom: 2px solid red;
 }
-.hero {
-    /* background-color: #ffdee9;
-    background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%); */
-}
+
 .hero1 {
     height: 200px;
     width: 100%;

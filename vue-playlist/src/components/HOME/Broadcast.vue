@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="shouyelunbo">
 	<div id="demo" class="carousel slide" data-ride="carousel">
  
   <!-- 指示符 -->
@@ -12,24 +12,21 @@
   <!-- 轮播图片 -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="http://static.runoob.com/images/mix/img_fjords_wide.jpg">
+      <img src="../../assets/shouyelunbo.jpg">
       <div class="carousel-caption">
-        <h3>第一张图片描述标题</h3>
-        <p>描述文字!</p>
+        
       </div>
     </div>
     <div class="carousel-item">
-      <img src="http://static.runoob.com/images/mix/img_nature_wide.jpg">
+      <img src="../../assets/moment/wushuhuangjunhua.jpg">
       <div class="carousel-caption">
-        <h3>第二张图片描述标题</h3>
-        <p>描述文字!</p>
+       
       </div>
     </div>
     <div class="carousel-item">
-      <img src="http://static.runoob.com/images/mix/img_mountains_wide.jpg">
+      <img src="../../assets/moment/pingpanglunbo1.jpg">
       <div class="carousel-caption">
-        <h3>第三张图片描述标题</h3>
-        <p>描述文字!</p>
+        
       </div>
     </div>
   </div>
@@ -48,9 +45,10 @@
 </div>
 </template>
 <style scoped>
+.shouyelunbo
 .carousel-item img{
   width: 100%;
-  
+  height: 500px;
 }
 
 </style>
