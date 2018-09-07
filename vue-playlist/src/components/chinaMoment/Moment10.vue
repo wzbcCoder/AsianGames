@@ -1,4 +1,5 @@
 <template>
+<div class="zhiding">
     <div class="Moment10">
        
         <div class="container">
@@ -154,6 +155,7 @@
         </div>
     
     </div>
+  </div>
 </template>
 
 <script>

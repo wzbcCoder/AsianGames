@@ -1,4 +1,5 @@
 <template>
+<div class="zhiding">
     <div class="Moment2">
        
         <div class="container">
@@ -147,6 +148,7 @@
         </div>
     
     </div>
+</div>
 </template>
 
 <script>
@@ -155,7 +157,15 @@ export default {
   components: {
     Broadcast: Broadcast
   },
-  name: "Moment2"
+  name: "Moment2",
+  created(){
+      this.menu();
+  },
+  methods:{
+      menu() {
+         window.scrollTo(0,0);
+    },
+  }
 };
 </script>
 <style scoped>
