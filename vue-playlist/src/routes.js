@@ -16,6 +16,7 @@ import Moment9 from './components/chinaMoment/Moment9.vue'
 import Moment10 from './components/chinaMoment/Moment10.vue'
 import Moment11 from './components/chinaMoment/Moment11.vue'
 import Moment12 from './components/chinaMoment/Moment12.vue'
+import Moment13 from './components/chinaMoment/Moment13.vue'
 import waterfall from './components/waterfall/waterfall.vue'
 
 
@@ -65,7 +66,7 @@ export const routes = [
     {path:'/Moment10',name:"Moment10",component:Moment10},
     {path:'/Moment11',name:"Moment11",component:Moment11},
     {path:'/Moment12',name:"Moment12",component:Moment12},
-    // {path:'/Moment13',name:"Moment13",component:Moment13},
+    {path:'/Moment13',name:"Moment13",component:Moment13},
     // {path:'/Moment14',name:"Moment14",component:Moment14},
     // {path:'/Moment15',name:"Moment15",component:Moment15},
     // {path:'/Moment16',name:"Moment16",component:Moment16},
