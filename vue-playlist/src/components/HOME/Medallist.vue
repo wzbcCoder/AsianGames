@@ -3,7 +3,7 @@
     <div class="bg">
         <div class="row">
             <div class="col-md-6 col-sm-6">
-                <strong><h3 class="text-info">奖牌 Top7</h3></strong>
+                <strong><h3 class="text-info">奖牌 Top5</h3></strong>
             </div>
             <div class="col-md-6 col-sm-6 ">
                 <div style="position:absolute;right:20px;bottom:0px;">
@@ -68,20 +68,7 @@
                     <td class="bronze">25</td>
                     <td class="red">70</td>
                 </tr>
-                <tr class="table-warning">
-                    <td class="press">伊朗</td>
-                    <td class="glob">20</td>
-                    <td class="silver">20</td>
-                    <td class="bronze">22</td>
-                    <td class="red">62</td>
-                </tr>
-                <tr class="table-info">
-                    <td class="press">中国台北</td>
-                    <td class="glob">17</td>
-                    <td class="silver">19</td>
-                    <td class="bronze">31</td>
-                    <td class="red">67</td>
-                </tr>
+                
 
             </tbody>
         </table>
