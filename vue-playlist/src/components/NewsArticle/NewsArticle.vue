@@ -40,7 +40,7 @@ export default {
                 var array = new Array();
                 this.New.imgs.forEach(element => {
                     array.push(element);
-                    console.log(element)
+                    // console.log(element)
                 });
                 // console.log(array);
                 this.array = array;

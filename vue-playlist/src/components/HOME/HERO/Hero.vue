@@ -303,13 +303,14 @@ export default {
 }
 
 .md-card {
-    width: 340px;
+    width: 275px;
     margin: 3px;
+    // height: 400px;
     display: inline-block;
     vertical-align: top;
 }
 .md-card-media img {
-    width: 304px;
+    width: 290px;
     height: 227px;
 }
 </style>
