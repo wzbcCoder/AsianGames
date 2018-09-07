@@ -26,6 +26,12 @@ export default {
                 "http://img1.gtimg.com/sports/pics/hv1/129/102/2287/148738314.png",
                 "http://img1.gtimg.com/sports/pics/hv1/133/102/2287/148738318.png",
                 "http://img1.gtimg.com/sports/pics/hv1/121/102/2287/148738306.png",
+                "http://img1.gtimg.com/sports/pics/hv1/131/102/2287/148738316.png",
+                "http://img1.gtimg.com/sports/pics/hv1/146/102/2287/148738331.png",
+                "http://img1.gtimg.com/sports/pics/hv1/159/102/2287/148738344.png",
+                "http://img1.gtimg.com/sports/pics/hv1/138/102/2287/148738323.png",
+                "http://img1.gtimg.com/sports/pics/hv1/163/102/2287/148738348.png",
+                "http://img1.gtimg.com/sports/pics/hv1/135/102/2287/148738320.png"
             ]
                 
             
