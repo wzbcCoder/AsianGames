@@ -36,9 +36,11 @@ export default {
         fetchMedal(title) {
             this.$http.get("/News?title=" + title).then(res => {
                 this.New = res.data[0];
+                
                 var array = new Array();
                 this.New.imgs.forEach(element => {
                     array.push(element);
+                    console.log(element)
                 });
                 // console.log(array);
                 this.array = array;
