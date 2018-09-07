@@ -12,13 +12,8 @@
     </div>
     <div class="barbar" id="sport">
     </div>
-<<<<<<< HEAD
     <zhongguoshike></zhongguoshike>
-    <!-- <div class="bar2">
-    </div>  -->
-=======
 
->>>>>>> 文兆杰
     <sportEvent></sportEvent>
     <hero></hero>
    <div class="barbar">

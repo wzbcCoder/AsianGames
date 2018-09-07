@@ -6,13 +6,8 @@
                 <strong><h3 class="text-info">奖牌 Top5</h3></strong>
             </div>
             <div class="col-md-6 col-sm-6 ">
-<<<<<<< HEAD
-                <div style="position:absolute;right:20px;bottom:0px;">
-                    <router-link :to="{name:'MedalRankings'}">查看更多>></router-link>
-=======
                 <div style="position:absolute;right:20px;bottom:3px;">
                     <router-link :to="{name:'MedalRankings'}"><button  type="button" class="btn btn-success">>>查看更多>></button></router-link>
->>>>>>> 文兆杰
                 </div>
             </div>
         </div>

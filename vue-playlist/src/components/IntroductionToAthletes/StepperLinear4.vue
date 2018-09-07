@@ -1,14 +1,4 @@
 <template>
-<<<<<<< HEAD
-<div class="zhiding">
-  <div>
-    <div class="title">
-      <h1>女排队长朱婷</h1>
-    </div>
-    <div class="personaldiv">
-<img src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=57389ba53187e9504617f46e2038531b/91ef76c6a7efce1b7c2e5caca451f3deb48f654b.jpg" alt="">
-    <div class="personal">
-=======
 
   <div class="container">
     
@@ -23,7 +13,6 @@
             <div class="row">
       <div class="col-md-6"><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=b21d334b77cb0a46912f836b0a0a9d41/810a19d8bc3eb1358d14660aaa1ea8d3fc1f44b4.jpg" alt=""></div>
       <div class="col-md-6"> <div class="personal">
->>>>>>> 文兆杰
       <!-- <md-step id="second" md-label="早年经历"> -->
       <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;朱婷，女，中国女排队长，中国著名女子排球运动员，1994年11月29日出生于河南省周口市郸城县，毕业于郑州大学体育学院 [1]  ，身高198cm，体重75kg [2]  ，司职主攻。
 2017年10月15日，朱婷领衔的瓦基弗银行以3-0完胜费内巴切，夺得土耳其超级杯冠军，这也是朱婷新赛季首冠。 [3]  2017年10月，朱婷获2017年度大本钟奖体育类(赫拉特勒斯奖)十佳华裔运动员。 [4]  2017年11月9日，据北京师范大学官方微博消息，中国女排队长朱婷将进入北京师范大学攻读研究生。 [5]  2018年1月31日，朱婷当选第十三届全国人大代表； [6]  4月27日，瓦基弗银行五场比赛中大比分3-2战胜伊萨奇巴希，获得土耳其联赛冠军，朱婷个人荣膺MVP [7]  ；5月7日，瓦基弗3-0击败布拉日，蝉联欧冠冠军 [8]  ，朱婷荣获最佳主攻 [9]  ；6月27日，中国3：1荷兰，朱婷36分刷新个人得分记录；7月1日，中国女排3:0战胜巴西女排 [10]  ，季军，朱婷荣获最佳主攻；2018年雅加达亚运会冠军 </p>

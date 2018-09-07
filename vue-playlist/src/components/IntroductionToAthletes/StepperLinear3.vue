@@ -1,14 +1,4 @@
 <template>
-<<<<<<< HEAD
-<div class="zhiding">
-  <div>
-    <div class="title">
-      <h1>天才泳将孙杨</h1>
-    </div>
-    <div class="personaldiv">
-<img src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=a7458cac4090f60310bd9415587bd87e/0dd7912397dda14480f36c2fb8b7d0a20df486b0.jpg" alt="">
-    <div class="personal">
-=======
 
   <div class="container">
     
@@ -23,7 +13,6 @@
             <div class="row">
       <div class="col-md-6"><img src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=c2ee9042c41b9d169eca923392b7dfea/4afbfbedab64034fccd8c09ba5c379310a551d11.jpg" alt=""></div>
       <div class="col-md-6"> <div class="personal">
->>>>>>> 文兆杰
       <!-- <md-step id="second" md-label="早年经历"> -->
       <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;孙杨，1991年12月1日生于浙江杭州，中国国家游泳队队长，男子1500米自由泳世界纪录保持者，男子400米自由泳奥运会纪录保持者。 2012年伦敦奥运会男子400米自由泳、男子1500米自由泳冠军； 2016年里约奥运会男子200米自由泳冠军。孙杨是世界泳坛历史上唯一一位男子200米自由泳、男子400米自由泳、男子1500米自由泳的奥运会世锦赛大满贯冠军得主，史上唯一一位男子800米自由泳世锦赛三连冠，男子自由泳个人单项金牌数居世界第一。 </p>
       <!-- </md-step> -->
