@@ -48,7 +48,7 @@
     </ul>
     <span class="navbar-text">
       
-        <span style="color:red"><strong>中国</strong></span>的<span style="color:gold"><strong>力量</strong></span>
+        <span style="color:red"><strong>中国</strong></span><strong v-rainbow>的</strong><span style="color:gold"><strong>力量</strong></span>
       
     </span>
   </div>
