@@ -6,8 +6,8 @@
                 <strong><h3 class="text-info">奖牌 Top7</h3></strong>
             </div>
             <div class="col-md-6 col-sm-6 ">
-                <div style="position:absolute;right:20px;bottom:0px;">
-                    <router-link :to="{name:'MedalRankings'}">>查看更多>></router-link>
+                <div style="position:absolute;right:20px;bottom:3px;">
+                    <router-link :to="{name:'MedalRankings'}"><button  type="button" class="btn btn-success">>>查看更多>></button></router-link>
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@ export default {
     },
     created() {
         this.$http.get("medalranks").then(res => {
-            (this.huojiang = res.data), console.log(this.huojiang);
+            (this.huojiang = res.data)
         });
     }
 };

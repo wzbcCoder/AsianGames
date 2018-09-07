@@ -33,7 +33,7 @@ export default {
         };
     },
     created() {
-        console.log(this.imgsall);
+   
         this.img = this.imgsall;
         this.play();
     },

@@ -15,34 +15,44 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <button class="myBtnhome">
-          <router-link to="/" class="nav-link"><strong>首页</strong></router-link>
+          <router-link to="/" class="nav-link" @click="gank()"><strong>首页</strong></router-link>
         </button>
         
       </li>
 
-      <!-- <li class="nav-item">
-         <router-link to="/IntroductionToAthletes" class="nav-link">IntroductionToAthletes</router-link>
-      </li> -->
-
+  
       <li class="nav-item">
         <button class="myBtnlist">
-        <router-link to="/MedalRankings" class="nav-link"><strong>奖牌榜</strong></router-link>
-
+        <router-link to="/MedalRankings" class="nav-link" @click="gank2()"><strong>奖牌榜</strong></router-link>
+            
         </button>
       </li>
 
        <li class="nav-item">
          <button class="myBtnnews">
-<router-link to="/News" class="nav-link"><strong>时讯</strong></router-link>
+<router-link to="/News" class="nav-link" @click="gank2()"><strong>时讯</strong></router-link>
          </button>
         
       </li>
 
        <li class="nav-item">
          <button class="myBtnpic">
-           <router-link to="/waterfall" class="nav-link" ><strong>照片墙</strong></router-link>
+           <router-link to="/waterfall" class="nav-link" @click="gank2()" ><strong>照片墙</strong></router-link>
          </button>
        
+      </li>
+
+      <li class="nav-item"  v-show="IsShow">
+         <button class="myGao">
+          
+           <a  href="#sport" class="nav-link" ><strong>高光</strong></a>
+         </button>
+      </li>
+
+      <li class="nav-item"  v-show="IsShow">
+         <button class="myHero">
+           <a  href="#chinahero" class="nav-link" ><strong>英雄</strong></a>
+         </button>
       </li>
 
     </ul>
@@ -147,16 +157,67 @@ text-decoration:none;
             background-color: #894293;
         }
 
+.myGao{
+            width: 80px;
+            height: 35px;
+            background-color:#94c23d;
+            color: white;
+            border: none;
+            cursor: pointer;
+            /*渐变效果,可以删掉这句话试试*/
+            transition:all 0.8s;
+        }
+        .myGao:hover{            
+            /*鼠标悬浮效果*/
+            /*阴影*/
+            box-shadow: 5px 5px 5px grey;
+            /*发光*/
+            background-color: #a0c065;
+        }
+.myHero{
+            width: 80px;
+            height: 35px;
+            background-color:#f29100;
+            color: white;
+            border: none;
+            cursor: pointer;
+            /*渐变效果,可以删掉这句话试试*/
+            transition:all 0.8s;
+        }
+        .myHero:hover{            
+            /*鼠标悬浮效果*/
+            /*阴影*/
+            box-shadow: 5px 5px 5px grey;
+            /*发光*/
+            background-color: #f0a93e;
+        }
+
 </style>
 
 <script>
 export default {
+    data() {
+        return {
+            IsShow:false
+        };
+    },
   methods:{
-        gotoPhoto:function(){
-            // window.location.href("./PhotoPage/照片墙.html"),
-            alert("aaa")
+        
+        gank:function(){
+                   this.IsShow=true; 
+        },
+        gank2:function(){
+                   this.IsShow=false; 
+                   console.log("aaa")
         }
-  }
+  },
+   created: function () {
+        console.log(window.location.href)
+        if(window.location.href==='http://localhost:8080/')
+        {
+            this.IsShow=true;
+        }
+     }
 }
        
 

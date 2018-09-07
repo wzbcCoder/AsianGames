@@ -1,21 +1,27 @@
 <template>
+ <div class="container">
+    
 
-  <div>
-    <div class="title">
-      <h1>UZI简自豪</h1>
+    <div class="card border-primary mb-3" style="max-width: 100%;">
+        <div class="card-header">
+          <div class="title">
+          <h1>电竞之星</h1>
+        </div>
+     </div>
+        <div class="card-body ">
+            <div class="row">
+      <div class="col-md-6"><img src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=a2a89b4606d162d991e36a4e70b6c289/e61190ef76c6a7ef6ebb7da4f1faaf51f2de6697.jpg" alt=""></div>
+      <div class="col-md-6"> <div class="personal">
+      <!-- <md-step id="second" md-label="早年经历"> -->
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简自豪，网络ID：Uzi，1997年3月29日出生于湖北省宜昌市，是游戏《英雄联盟》中国区的电竞职业选手，原SH皇族电子竞技俱乐部ADC选手，现效力RNG战队并担任队内ADC一职 [1]  。
+2013年Uzi第一次进入全球总决赛，在预选赛上使用暗夜猎手VN在比赛一战封神，却在决赛惜败SKT获得S3英雄联盟世界总决赛亚军 [2]  。2014年再次进入S系列比赛获得S4英雄联盟世界总决赛亚军 [3]  。2015年S5赛季初加入OMG [4]  无缘世界总决赛。春季赛结束后，在2016年夏季转会期时转会到RNG [5]  ，2017年全明星宣传片：Uzi为LPL代表人物 [6]  ，2018年获得MSI季中赛冠军。2018年6月，入选2018雅加达-巨港亚运会英雄联盟电子体育表演项目中国代表队。 [7-8]  2018年8月29日，雅加达亚运会电竞表演项目《英雄联盟》总决赛，由苏汉伟、姬星、史森明、严君泽、刘世宇、简自豪组成的中国团队3-1战胜劲敌韩国团队夺得金牌 </p>
+      <!-- </md-step> -->
+    </div></div>
     </div>
-    <div class="personaldiv">
-      <img src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike272%2C5%2C5%2C272%2C90/sign=8ff1ef1a52df8db1a8237436684ab631/241f95cad1c8a7861a86a48c6b09c93d71cf5080.jpg" alt="">
-      <div class="personal">
-        <!-- <md-step id="second" md-label="早年经历"> -->
-        <p> </p>
-        <p> &nbsp; &nbsp; &nbsp; &nbsp; 2012年初因为家庭原因的简自豪搬家到了新的城市惠州，由于新搬家过来的学籍和转学的问题让他有了在家玩游戏的机会。 天天在家玩游戏的他，在接触到了英雄联盟这个游戏的时候。他以惊人的适应能力迅速驰骋了这个游戏，在当时的四区战无不胜，迅速冲到了1700分。后来被陈芳辉(虎妞)发现并介绍到皇族战队，开始自己的职业生涯
-        </p>
-        <!-- </md-step> -->
       </div>
-      <!-- <span class="md-title">Headline</span> -->
+</div>
+    
 
-    </div>
     <div class="content">
       <md-steppers>
         <md-step id="first" md-label="个人最佳">
@@ -116,27 +122,26 @@ export default {data: () => ({
 
 
 
-<style scoped>
+<style scoped lang="scss">
 content2 {
-    position: relative;
+  position: relative;
     /* overflow-y: scroll; */
 }
-.content2 {
-    height: 200px;
-    overflow: auto;
+.content2{
+  
+  height: 200px;
+  overflow: auto;
 }
-.live {
-    height: 200px;
+.live{
+  height: 200px;
 }
 img {
     position: relative;
     /* left: 40px; */
-    width: 477px;
-    height: 300px;
 }
-.row {
-    position: relative;
-    top: -15px;
+.row{
+  position: relative;
+  /* top: -18px; */
 }
 .title {
     text-align: center;
@@ -144,20 +149,23 @@ img {
 }
 .personal {
     position: relative;
-    top: -300px;
-    left: 50%;
-    width: 40%;
-}
-.personaldiv {
-    height: 600px;
+    // top: -300px;
+
+
 }
 .content {
     position: relative;
-    top: -250px;
+    // top: -250px;
 }
 .table {
     width: 100%;
     height: 400px;
     /* background-color: aquamarine */
 }
+ .md-dialog {
+    max-width: 768px;
+  }
+  .comt{
+      background: white
+  }
 </style>

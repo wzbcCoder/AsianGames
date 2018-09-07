@@ -4,10 +4,11 @@
     
 
     <div class="card border-primary mb-3" style="max-width: 100%;">
-        <div class="card-header"><div class="title">
+        <div class="card-header">
+          <div class="title">
           <h1>亚洲飞人苏炳添</h1>
         </div>
-    </div>
+     </div>
         <div class="card-body ">
             <div class="row">
       <div class="col-md-6"><img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=c70c2f319cef76c6c4dff379fc7f969f/faedab64034f78f0d5e767e375310a55b3191c35.jpg" alt=""></div>

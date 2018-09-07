@@ -40,9 +40,9 @@ export default {
                 var array = new Array();
                 this.New.imgs.forEach(element => {
                     array.push(element);
-                    console.log(element)
+                
                 });
-                // console.log(array);
+            
                 this.array = array;
                 if (this.array[0]) {
                     this.isShow = true;

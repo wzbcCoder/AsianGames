@@ -1,5 +1,5 @@
 <template>
-    <ul class="intro-cont">
+    <ul class="intro-cont" id="jumpop">
 
         
         <li v-for="(img,index) in imgs" :key="index" @mouseenter="enter($event)" @mouseleave="leave($event)">
