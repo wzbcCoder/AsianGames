@@ -6,7 +6,7 @@
                 <h3 class="threed">奖牌 Top7</h3>
             </div>
             <div class="col-md-6 col-sm-6 ">
-                <div style="position:absolute;right:20px;bottom:0px;">
+                <div style="position:absolute;right:20px;bottom:0px;text-color:black;">
                     <router-link :to="{name:'MedalRankings'}">查看更多>></router-link>
                 </div>
             </div>
@@ -124,6 +124,7 @@ background-color: #FFE53B;
 .zongshu {
     font-size: 15px;
 }
+
 </style>
 
 

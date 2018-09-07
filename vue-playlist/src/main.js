@@ -34,6 +34,14 @@ Vue.prototype.$http = axios
 const router = new VueRouter({
   routes,
   mode:"history",
+  scrollBehavior (to, from, savedPosition) {
+    return{selector:".zhiding"}
+    if(savedPosition){
+       return savedPosition
+     }else{
+       return {x:0 ,y:0}
+     }
+  } 
 })
   
 
