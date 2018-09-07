@@ -14,30 +14,30 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <button class="myBtnhome" v-on:click="gank">
-          <router-link to="/" class="nav-link" ><strong>首页</strong></router-link>
+        <button class="myBtnhome">
+          <router-link to="/" class="nav-link" @click="gank()"><strong>首页</strong></router-link>
         </button>
         
       </li>
 
   
       <li class="nav-item">
-        <button class="myBtnlist" @click="gank2()">
-        <router-link to="/MedalRankings" class="nav-link" ><strong>奖牌榜</strong></router-link>
+        <button class="myBtnlist">
+        <router-link to="/MedalRankings" class="nav-link" @click="gank2()"><strong>奖牌榜</strong></router-link>
             
         </button>
       </li>
 
        <li class="nav-item">
-         <button class="myBtnnews" @click="gank2()">  
-<router-link to="/News" class="nav-link" ><strong>时讯</strong></router-link>
+         <button class="myBtnnews">
+<router-link to="/News" class="nav-link" @click="gank2()"><strong>时讯</strong></router-link>
          </button>
         
       </li>
 
        <li class="nav-item">
-         <button class="myBtnpic" @click="gank2()">
-           <router-link to="/waterfall" class="nav-link"  ><strong>照片墙</strong></router-link>
+         <button class="myBtnpic">
+           <router-link to="/waterfall" class="nav-link" @click="gank2()" ><strong>照片墙</strong></router-link>
          </button>
        
       </li>
@@ -205,11 +205,10 @@ export default {
         
         gank:function(){
                    this.IsShow=true; 
-                //    alert("asa")
         },
         gank2:function(){
                    this.IsShow=false; 
-                //    console.log("aaa")
+                   console.log("aaa")
         }
   },
    created: function () {
