@@ -24,7 +24,22 @@ export default {
     "app-footer":Footer,
     "app-Navigation":Navigation
   
+  },
+   mounted () {
+     function checkIE(){
+      return '-ms-scroll-limit' in document.documentElement.style && '-ms-ime-align' in document.documentElement.style
+    }
+    if (checkIE) {
+      window.addEventListener('hashchange', () => {
+        let currentPath = window.location.hash.slice(1)
+        console.log(currentPath)
+        if (this.$route.path !== currentPath) {
+          this.$router.push(currentPath)
+        }
+      }, false)
+    }
   }
+
 }
 </script>
 
