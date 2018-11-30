@@ -1,10 +1,20 @@
 <template>
 
     <div class="bg">
-        <h3 class="threed">奖牌 Top10</h3>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <strong><h3 class="text-info">奖牌 Top5</h3></strong>
+            </div>
+            <div class="col-md-6 col-sm-6 ">
+                <div style="position:absolute;right:20px;bottom:3px;">
+                    <router-link :to="{name:'MedalRankings'}"><button  type="button" class="btn btn-success">>>查看更多>></button></router-link>
+                </div>
+            </div>
+        </div>
+
         <table class="table">
             <thead class="thead-default">
-                <tr>
+                <tr class="bg-warning">
                     <th>国家/地区</th>
                     <th>
                         <img src="../../assets/jinpai.png" alt="">
@@ -18,22 +28,48 @@
                     <th class="zongshu">总数</th>
                 </tr>
             </thead>
-            <tbody v-for="(item,index) in huojiang" v-if="index<=7" :key="item.index">
-                <tr>
-                    <td class="press">{{item.name}}
-                        <!-- <img :src="item.logo"> -->
-                    </td>
-                    <td class="glob">{{item.glob}}</td>
-                    <td class="silver">{{item.silver}}</td>
-                    <td class="bronze">{{item.bronze}}</td>
-                    <td class="red">{{item.total}}</td>
+
+
+          
+
+            <tbody >
+                <tr class="table-active">
+                    <td class="press">中国</td>
+                    <td class="glob">132</td>
+                    <td class="silver">92</td>
+                    <td class="bronze">65</td>
+                    <td class="red">289</td>
+                </tr>
+                <tr class="table-primary">
+                    <td class="press">日本</td>
+                    <td class="glob">75</td>
+                    <td class="silver">56</td>
+                    <td class="bronze">74</td>
+                    <td class="red">205</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td class="press">韩国</td>
+                    <td class="glob">49</td>
+                    <td class="silver">58</td>
+                    <td class="bronze">70</td>
+                    <td class="red">177</td>
+                </tr>
+                <tr class="table-success">
+                    <td class="press">印尼</td>
+                    <td class="glob">31</td>
+                    <td class="silver">24</td>
+                    <td class="bronze">43</td>
+                    <td class="red">98 </td>
+                </tr>
+                <tr class="table-danger">
+                    <td class="press">乌兹别克斯坦</td>
+                    <td class="glob">21</td>
+                    <td class="silver">24</td>
+                    <td class="bronze">25</td>
+                    <td class="red">70</td>
                 </tr>
                 
-                
-                
-                
-                
-                
+
             </tbody>
         </table>
     </div>
@@ -42,82 +78,49 @@
 
 <script>
 export default {
-    data(){
-        return{
-            huojiang:[]
-        }
+    data() {
+        return {
+            huojiang: []
+        };
     },
-    created(){
-        this.$http.get("medalranks")
-            .then(res => {
-                this.huojiang = res.data,
-                console.log(this.huojiang)
-                })
-            
+    created() {
+        this.$http.get("medalranks").then(res => {
+            (this.huojiang = res.data)
+        });
     }
-}
+};
 </script>
 
 
 <style>
-.bg{
-    /* background-color: #FEE140;
-background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%); */
-/* background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
-/* background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
-/* background-color: #FFFFFF;
-background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%); */
-/* background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
-/* background-color: #FFE53B;
-background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%); */
-/* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
-background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+.bg {
+
+
 }
-.threed{
-color: #ffffff;
-letter-spacing: 0;
-/* text-shadow: 0px 1px 0px #999, 
-0px 2px 0px #888, 
-0px 3px 0px #777, 
-0px 4px 0px #666, 
-0px 5px 0px #555, 
-0px 6px 0px #444, 
-0px 7px 0px #333, 
-0px 8px 7px #001135  */
-text-shadow: 0px 1px 0px rgb(243, 158, 155), 
-0px 2px 0px rgb(241, 137, 137), 
-0px 3px 0px rgb(240, 95, 95), 
-0px 4px 0px rgb(245, 57, 57), 
-0px 5px 0px rgb(228, 231, 25), 
-0px 6px 0px rgb(61, 189, 72), 
-0px 7px 0px rgb(31, 180, 143), 
-0px 8px 7px #5e0dbb
-}
-.glob{
-    color: gold;
-}
-.silver{
-    color:silver;
-}
-.bronze{
-    color:#da6b4c;
-}
-.red{
-    color: red;
-}
-.press{
+
+.glob {
     color: black;
 }
-.press img{
+.silver {
+    color: silver;
+}
+.bronze {
+    color: #da6b4c;
+}
+.red {
+    color: red;
+}
+.press {
+    color: black;
+}
+.press img {
     height: 10%;
     width: 10%;
 }
-.zongshu{
+.zongshu {
     font-size: 15px;
 }
+
 </style>
 
 

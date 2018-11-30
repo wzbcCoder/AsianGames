@@ -10,13 +10,15 @@
             <medallist></medallist>
         </div>
     </div>
-    <div class="barbar">
+    <div class="barbar" id="sport">
     </div>
-    <div class="bar2">
-    </div>
-    <router-view></router-view>
+    <zhongguoshike></zhongguoshike>
+
+    <sportEvent></sportEvent>
+    <hero></hero>
    <div class="barbar">
     </div>
+    
     
 </div>
 </template>
@@ -26,29 +28,35 @@ import Broadcast from './Broadcast'
 import Video from './Video'
 import Medallist from './Medallist'
 import Hero from './HERO/Hero'
+import SportEvent from './SportEvent'
+import Zhongguoshike from './HERO/Zhongguoshike'
 
 export default {
     components:{
-        
+        zhongguoshike:Zhongguoshike,
         broadcast:Broadcast,
         "app-video":Video,
         medallist:Medallist,
-        hero:Hero
-    }
+        hero:Hero,
+        sportEvent:SportEvent
+    },
+    
+  
 }
 </script>
-<style>
+<style scope>
 .barbar{
   background: url(../../assets/tiao.png);
   margin: 10px auto;
-  height: 8px;
-  padding: 2px;
+  height: 20px;
+  padding: 3px;
 }
-.bar2{
+/* .bar2{
     background: url(../../assets/bar2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 75px;
-}
+} */
+
 </style>
 

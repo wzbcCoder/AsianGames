@@ -10,11 +10,7 @@
 
 
 export default {
-  name: 'PhotoPage',
-  components: {
-   
-
-  }
+  
 }
 </script>
 

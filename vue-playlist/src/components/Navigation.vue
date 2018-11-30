@@ -1,56 +1,101 @@
 <template>
-        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #f5f5f5;">
-  <a class="py-2" href="#" style="">
-                <img src="../assets/yajiadalogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                <span style="color:#f29200">Jakarta</span> 
-            <span style="color:#94c23c">Asian</span> 
-            <span style="color:#db3a99">Games</span> 
-            <span style="color:#f3114c">China moment</span>
-            </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <router-link to="/" class="nav-link">Home</router-link>
-      </li>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #f5f5f5;">
+        <a class="py-2" href="#" style="">
+            <img src="../assets/yajiadalogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
 
-      <li class="nav-item">
-         <router-link to="/IntroductionToAthletes" class="nav-link">IntroductionToAthletes</router-link>
-      </li>
+            <span style="color:#f29200">Jakarta</span>
+            <span style="color:#94c23c">Asian</span>
+            <span style="color:#db3a99">Games</span>
+            <span style="color:#f3114c">China moment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <router-link to="/" class="nav-link">
+                        <button class="myBtnhome" v-on:click="gank">
+                            <strong>首页</strong>
+                        </button>
+                    </router-link>
 
-      <li class="nav-item">
-        <router-link to="/MedalRankings" class="nav-link">MedalRankings</router-link>
-      </li>
+                </li>
 
-       <li class="nav-item">
-        <router-link to="/News" class="nav-link">News</router-link>
-      </li>
+                <li class="nav-item">
+                    <router-link to="/MedalRankings" class="nav-link">
+                        <button class="myBtnlist" @click="gank2()">
+                            <strong>奖牌榜</strong>
 
-       <li class="nav-item">
-        <a v-on:click="gotoPhoto()" class="nav-link">照片墙</a>
-      </li>
+                        </button>
+                    </router-link>
+                </li>
 
-    </ul>
-    <span class="navbar-text">
-      Navbar text with an inline element
-    </span>
-  </div>
-</nav>
+                <li class="nav-item">
+                    <router-link to="/News" class="nav-link">
+                        <button class="myBtnnews" @click="gank2()">
+                            <strong>时讯</strong>
+                        </button>
+                    </router-link>
+
+                </li>
+
+                <li class="nav-item">
+                    <router-link to="/waterfall" class="nav-link">
+                        <button class="myBtnpic" @click="gank2()">
+                            <strong>照片墙</strong>
+                        </button>
+                    </router-link>
+
+                </li>
+
+                <li class="nav-item" v-show="IsShow">
+                 
+                        <a href="#sport" class="nav-link">
+                             <button class="myGao">
+                            <strong>高光</strong>
+                            </button>
+                        </a>
+                    
+                </li>
+
+                <li class="nav-item" v-show="IsShow">
+                    
+                        <a href="#chinahero" class="nav-link">
+                            <button class="myHero">
+                            <strong>英雄</strong>
+                            </button>
+                        </a>
+                    
+                </li>
+
+            </ul>
+            <span class="navbar-text">
+
+                <span style="color:red">
+                    <strong>中国</strong>
+                </span>
+                <strong v-rainbow>的</strong>
+                <span style="color:gold">
+                    <strong>力量</strong>
+                </span>
+
+            </span>
+        </div>
+    </nav>
 </template>
 
-<style>
-.navbar-brand{
+<style scoped>
+.navbar-brand {
     font-family: "Times New Roman", Times, serif;
 }
-a:hover{
-text-decoration:none;
+a:hover {
+    text-decoration: none;
 }
-.navbar-light .navbar-toggler-icon {
+/* .navbar-light .navbar-toggler-icon {
     background-image: url(../assets/china.jpg);
     margin: 0 0;
-}
+} */
 .navbar-light .navbar-toggler {
     color: rgba(255, 0, 0, 0.5);
     border-color: rgba(255, 0, 0, 0.1);
@@ -61,22 +106,140 @@ text-decoration:none;
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
+}
+.myBtnhome {
+    width: 80px;
+    height: 35px;
+    background-color: #f52e59;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /*渐变效果,可以删掉这句话试试*/
+    transition: all 0.8s;
+}
+.myBtnhome:hover {
+    /*鼠标悬浮效果*/
+    /*阴影*/
+    box-shadow: 5px 5px 5px grey;
+    /*发光*/
+    background-color: #f54d71;
+}
+.myBtnlist {
+    width: 80px;
+    height: 35px;
+    background-color: #0091eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /*渐变效果,可以删掉这句话试试*/
+    transition: all 0.8s;
+}
+.myBtnlist:hover {
+    /*鼠标悬浮效果*/
+    /*阴影*/
+    box-shadow: 5px 5px 5px grey;
+    /*发光*/
+    background-color: #3aa6e9;
+}
+.myBtnnews {
+    width: 80px;
+    height: 35px;
+    background-color: #ffd600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /*渐变效果,可以删掉这句话试试*/
+    transition: all 0.8s;
+}
+.myBtnnews:hover {
+    /*鼠标悬浮效果*/
+    /*阴影*/
+    box-shadow: 5px 5px 5px grey;
+    /*发光*/
+    background-color: #fbe055;
+}
+.myBtnpic {
+    width: 80px;
+    height: 35px;
+    background-color: #871996;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /*渐变效果,可以删掉这句话试试*/
+    transition: all 0.8s;
+}
+.myBtnpic:hover {
+    /*鼠标悬浮效果*/
+    /*阴影*/
+    box-shadow: 5px 5px 5px grey;
+    /*发光*/
+    background-color: #894293;
+}
+
+.myGao {
+    width: 80px;
+    height: 35px;
+    background-color: #94c23d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /*渐变效果,可以删掉这句话试试*/
+    transition: all 0.8s;
+}
+.myGao:hover {
+    /*鼠标悬浮效果*/
+    /*阴影*/
+    box-shadow: 5px 5px 5px grey;
+    /*发光*/
+    background-color: #a0c065;
+}
+.myHero {
+    width: 80px;
+    height: 35px;
+    background-color: #f29100;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /*渐变效果,可以删掉这句话试试*/
+    transition: all 0.8s;
+}
+.myHero:hover {
+    /*鼠标悬浮效果*/
+    /*阴影*/
+    box-shadow: 5px 5px 5px grey;
+    /*发光*/
+    background-color: #f0a93e;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
 </style>
 
 <script>
 export default {
-  methods:{
-        gotoPhoto:function(){
-            // window.location.href("./PhotoPage/照片墙.html"),
-            alert("aaa")
+    data() {
+        return {
+            IsShow: false
+        };
+    },
+    methods: {
+        gank: function() {
+            this.IsShow = true;
+            //    alert("asa")
+        },
+        gank2: function() {
+            this.IsShow = false;
+            //    console.log("aaa")
         }
-  }
-}
-       
-
-
-
+    },
+    created: function() {
+        console.log(window.location.href);
+        if (window.location.href === "http://localhost:8080/") {
+            this.IsShow = true;
+        }
+    }
+};
 </script>
 

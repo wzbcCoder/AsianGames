@@ -99,13 +99,16 @@ export default {
                 this.Medals = res.data
         
                 })
+        },
+        menu() {
+         window.scrollTo(0,0);
         }
     },
     created(){
         this.fetchMedal();
-
-    }
-
+this.menu();
+    
+  }
  
 }
 

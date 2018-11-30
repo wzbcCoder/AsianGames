@@ -7,6 +7,7 @@ import  {routes}  from './routes.js'
 import axios from 'axios'
 import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/default.css'
 
 Vue.use(VueMaterial)
 
@@ -33,6 +34,14 @@ Vue.prototype.$http = axios
 const router = new VueRouter({
   routes,
   mode:"history",
+  scrollBehavior (to, from, savedPosition) {
+    return{selector:".zhiding"}
+    if(savedPosition){
+       return savedPosition
+     }else{
+       return {x:0 ,y:0}
+     }
+  } 
 })
   
 
